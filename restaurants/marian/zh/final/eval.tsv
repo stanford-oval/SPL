@@ -1,0 +1,528 @@
+RSR1-0-0	附 近 有 爱 尔 餐 厅 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) and param:reviewRating.ratingValue:Number == 8 } and param:servesCuisine:String =~ " 爱 尔 " => notify	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount == 8 and param:geo == location:current_location and param:servesCuisine =~ " 爱 尔 " => notify
+RSR2-0-0	这 个 餐 厅 是 哪 一 种 食 物	now => [ param:servesCuisine:String ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR3-0-0	最 近 的 罗 斯 餐 馆 的 电 话 号 码 和 地 址 是 多 少 ?	now => [ param:geo:Location , param:telephone:Entity(tt:phone_number) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 罗 斯 " ) ) ) [ 1 ] ) => notify
+RSR4-0-0	最 近 的 咪 吖 咪 吖 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " ) ) ) [ 1 ] ) => notify
+RSR5-0-0	巴 黎 餐 吧	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 巴 黎 餐 吧 " ) ) ) [ 1 ] => notify
+RSR6-0-0	显 示 所 有 由 奋 芳 撰 写 的 审 查 说 明 。	now => [ param:description:String ] of ( ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 奋芳 " ^^org.schema.Restaurant:Person ) => notify
+RSR7-0-0	晶 晶 飾 品 的 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR8-0-0	你 能 告 诉 我 朝 阳 新 东 路 中 華 山 市 場 的 评 级 吗 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 新 东 路 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 華 山 市 場 " ) => notify
+RSR9-0-0	找 到 一 个 有 6 颗 或 6 颗 以 上 星 星 的 葡 萄 牙 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 and param:servesCuisine:String =~ " 葡 萄 牙 " => notify
+RSR10-0-0	搜 索 罗 斯 餐 馆 , 进 行 七 星 级 评 比 或 更 好 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 7 and param:servesCuisine:String =~ " 罗 斯 " => notify
+RSR11-0-0	搜 索 爱 尔 兰 餐 馆 , 至 少 8 次 评 论 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 8 and param:servesCuisine:String =~ " 爱 尔 兰 " => notify
+RSR12-0-0	列 出 泰 国 菜 餐 馆 , 评 分 较 高 为 6 个 明 星 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 and param:servesCuisine:String =~ " 泰 国 菜 " => notify
+RSR13-0-0	寻 找 一 个 离 我 最 近 的 墨 西 哥 餐 厅 。	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " ) ) ) [ 1 ] => notify
+RSR14-0-0	臨 江 街 上 的 晶 晶 飾 品 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 臨 江 街 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR15-0-0	最 接 近 的 来 西 亚 餐 馆 是 什 么 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) and param:reviewRating.ratingValue:Number == 8 } and param:servesCuisine:String =~ " 来 西 亚 " ) ) ) [ 1 ] => notify
+RSR16-0-0	最 接 近 的 淚 滴 熊 是 什 么 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) ) ) [ 1 ] => notify
+RSR17-0-0	最 近 的 泰 国 餐 厅 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 " ) ) ) [ 1 ] ) => notify
+RSR18-0-0	显 示 对 董 的 聚 宝 源 的 评 分	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " ) join ( @org.schema.Restaurant.Review ) ) filter param:author:Entity(org.schema.Restaurant:Person) == " 董 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR19-0-0	淚 滴 熊 的 评 分 如 何 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR20-0-0	晶 晶 飾 品 的 评 级 是 多 少 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR21-0-0	最 近 的 尔 兰 餐 厅 所 在 地 。	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 尔 兰 " ) ) ) [ 1 ] ) => notify
+RSR22-0-0	搜 索 中 和 區 中 的 马 来 西 餐 馆 , 至 少 8 次 评 议 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 8 and param:geo:Location == location: " 中 和 區 " and param:servesCuisine:String =~ " 马 来 西 " => notify
+RSR23-0-0	忠 孝 東 路 一 段 號 中 的 咪 吖 咪 吖 的 评 级 是 什 么 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 忠 孝 東 路 一 段 號 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " ) => notify
+RSR24-0-0	季 候 风 的 评 级 是 什 么 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 季 候 风 " ) => notify
+RSR25-0-0	显 示 最 近 的 马 来 餐 厅 的 位 置 和 名 称 。	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 马 来 " ) ) ) [ 1 ] ) => notify
+RSR26-0-0	显 示 最 接 近 的 溫 洲 大 餛 飩 , 至 少 有 5 颗 星 星 。	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 溫 洲 大 餛 飩 " ) ) ) [ 1 ] => notify
+RSR27-0-0	搜 索 5 个 星 餐 馆 的 10007 拉 链 码 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " and param:aggregateRating.ratingValue:Number == 5 => notify
+RSR28-0-0	西 贡 妈 妈 的 价 格 范 围 是 多 少 ?	now => [ param:priceRange:String ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 贡 妈 妈 " ) => notify
+RSR29-0-0	6 个 星 级 拉 丁 风 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue == 6 and param:aggregateRating.reviewCount >= 10 and param:servesCuisine =~ " 拉 丁 风 " => notify
+RSR30-0-0	能 不 能 带 我 看 看 附 近 五 星 级 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location:current_location => notify
+RSR31-0-0	最 近 的 新 荣 记 的 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 新 荣 记 " ) ) ) [ 1 ] ) => notify
+RSR32-0-0	餐 厅 的 评 级 是 多 少 ?	now => [ param:aggregateRating.ratingValue:Number , param:aggregateRating.reviewCount:Number ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR33-0-0	我 想 看 看 在 石 景 山 路 号 上 来 西 餐 馆 是 什 么 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 石 景 山 路 号 " and param:servesCuisine:String =~ " 来 西 " => notify
+RSR34-0-0	楚 华 有 多 少 关 于 王 府 井 烤 鸭 店 的 审 评 ?	now => aggregate count of ( ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " ) join ( @org.schema.Restaurant.Review ) ) filter param:author:Entity(org.schema.Restaurant:Person) == " 楚华 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) ) => notify
+RSR35-0-0	至 少 有 6 个 明 星 评 分 的 爱 尔 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 and param:servesCuisine:String =~ " 爱 尔 " => notify
+RSR36-0-0	显 示 DATE_0 上 翠 芬 撰 写 的 所 有 评 论 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 翠芬 " ^^org.schema.Restaurant:Person and param:datePublished:Date == DATE_0 => notify
+RSR37-0-0	显 示 丹 丹 的 六 星 级 泰 国 接 合 点 评 论 。	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 " ) join ( @org.schema.Restaurant.Review ) ) filter param:author:Entity(org.schema.Restaurant:Person) == " 丹丹 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) and param:reviewRating.ratingValue:Number == 6 => notify
+RSR38-0-0	附 近 有 8 家 明 星 俄 罗 斯 餐 厅 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 8 and param:geo:Location == location:current_location and param:servesCuisine:String =~ " 俄 罗 斯 " => notify
+RSR39-0-0	搜 索 德 国 菜 餐 馆 , 至 少 进 行 5 次 审 查 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount >= 5 and param:servesCuisine =~ " 德 国 菜 " => notify
+RSR40-0-0	找 到 一 家 提 供 爱 尔 食 品 的 餐 馆 , 至 少 进 行 6 次 审 查 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 and param:servesCuisine:String =~ " 爱 尔 " => notify
+RSR41-0-0	最 近 的 尔 兰 餐 厅 是 什 么 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:servesCuisine:String =~ " 尔 兰 " ) ) ) [ 1 ] => notify
+RSR42-0-0	能 告 诉 我 最 近 的 6 星 泰 国 之 家 的 电 话 号 码 吗 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:servesCuisine:String =~ " 泰 国 " ) ) ) [ 1 ] ) => notify
+RSR43-0-0	南 纬 路 号 中 正 發 青 草 店 评 级 是 多 少 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 南 纬 路 号 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 正 發 青 草 店 " ) => notify
+RSR44-0-0	西 贡 妈 妈 的 明 星 评 分 是 多 少 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 贡 妈 妈 " ) => notify
+RSR45-0-0	最 近 的 评 分 和 评 分 是 多 少 ?	now => sort param:datePublished:Date desc of ( @org.schema.Restaurant.Review ) => notify
+RSR46-0-0	最 近 的 咪 吖 咪 吖 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " ) ) ) [ 1 ] ) => notify
+RSR47-0-0	搜 索 该 地 区 所 有 五 星 级 的 拉 丁 风 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location:current_location and param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR48-0-0	你 能 告 诉 我 最 接 近 的 咪 吖 咪 吖 在 哪 里 吗 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " ) ) ) [ 1 ] ) => notify
+RSR49-0-0	王 府 井 烤 鸭 店 的 评 级 是 什 么 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " ) => notify
+RSR50-0-0	德 国 菜	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 and param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR51-0-0	我 能 否 读 到 爱 尔 最 近 的 美 国 餐 厅 的 描 述 ?	now => [ param:description:String ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 爱 尔 " ) ) ) [ 1 ] ) => notify
+RSR52-0-0	3 样 菜 的 价 格 范 围 是 什 么 ?	now => [ param:priceRange:String ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 3 样 菜 " ) => notify
+RSR53-0-0	显 示 最 接 近 的 6 星 级 餐 厅 的 描 述 。	now => [ param:description:String ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 ) ) ) [ 1 ] ) => notify
+RSR54-0-0	最 近 的 尔 兰 餐 馆 的 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 尔 兰 " ) ) ) [ 1 ] ) => notify
+RSR55-0-0	哪 些 是 这 个 地 区 最 高 等 级 的 餐 厅 ?	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location ) ) [ 1 ] => notify
+RSR56-0-0	南 锣 鼓 巷 板 厂 胡 同 号 中 泰 国 菜 餐 馆 搜 索 至 少 6 次 审 查	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 and param:geo:Location == location: " 南 锣 鼓 巷 板 厂 胡 同 号 " and param:servesCuisine:String =~ " 泰 国 菜 " => notify
+RSR57-0-0	我 离 小 山 日 本 料 理 或 聚 宝 源 有 多 近 ?	now => [ param:distance ] of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 小 山 日 本 料 理 " or param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " ) ) => notify
+RSR58-0-0	显 示 所 有 墨 西 哥 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:servesCuisine:String =~ " 墨 西 哥 " and distance ( param:geo:Location , location:current_location ) <= 5 unit:mi => notify
+RSR59-0-0	晶 晶 飾 品 柜 子 的 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) ) ) [ 1 ] ) => notify
+RSR60-0-0	告 诉 我 甜 点 店 申 德 加 油 站 餐 厅 寿 司 中 和 區 店 的 破 碎 面 包 店 餐 厅 所 在 地 点 。	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 中 和 區 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 申 德 加 油 站 餐 厅 " and param:servesCuisine:String =~ " 寿 司 " ) => notify
+RSR61-0-0	基 辅 罗 斯 餐 厅 的 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 基 辅 罗 斯 餐 厅 " ) => notify
+RSR62-0-0	最 近 的 糯 言 酒 馆 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 糯 言 酒 馆 " ) ) ) [ 1 ] ) => notify
+RSR63-0-0	距 离 最 近 的 頂 好 名 店 城 有 多 远 ?	now => [ param:distance:Measure(m) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 頂 好 名 店 城 " ) ) ) [ 1 ] ) => notify
+RSR64-0-0	寧 夏 路 中 咪 吖 咪 吖 的 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 寧 夏 路 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " ) => notify
+RSR65-0-0	最 近 的 墨 西 哥 餐 厅 在 哪 里 , 至 少 进 行 5 个 星 级 审 查 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) and param:reviewRating.ratingValue:Number == 5 } and param:servesCuisine:String =~ " 墨 西 哥 " ) ) ) [ 1 ] ) => notify
+RSR66-0-0	5 家 在 枣 营 路 号 好 运 街 号 的 五 家 最 高 评 分 的 国 料 餐 厅 的 价 格 如 何 ?	now => [ param:priceRange:String ] of ( ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 枣 营 路 号 好 运 街 号 " and param:servesCuisine:String =~ " 国 料 " ) ) [ 1 : 5 ] ) => notify
+RSR67-0-0	来 看 看 我 最 近 的 華 山 市 場 的 评 语 吗 ?	now => ( ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 華 山 市 場 " ) ) ) [ 1 ] ) join ( @org.schema.Restaurant.Review ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR68-0-0	什 么 是 6 星 级 国 料 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:servesCuisine:String =~ " 国 料 " => notify
+RSR69-0-0	离 我 最 近 的 哪 里 有 六 星 级 评 论 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:geo:Location == location:current_location => notify
+RSR70-0-0	在 南 长 街 号 寻 找 6 个 星 级 墨 西 哥 食 物 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:geo:Location == location: " 南 长 街 号 " and param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR71-0-0	5 星 级 评 论 , 请 给 我 看 奋 芳 写 的 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 奋芳 " ^^org.schema.Restaurant:Person and param:reviewRating.ratingValue:Number == 5 => notify
+RSR72-0-0	西 鬧 市 集 有 多 少 个 星 级 评 论 ?	now => aggregate count of ( ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 鬧 市 集 " ) join ( ( @org.schema.Restaurant.Review ) filter param:reviewRating.ratingValue:Number == 1 ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) ) => notify
+RSR73-0-0	我 想 看 看 所 有 春 涛 写 的 一 星 评 论 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 春涛 " ^^org.schema.Restaurant:Person and param:reviewRating.ratingValue:Number == 1 => notify
+RSR74-0-0	找 到 所 有 西 班 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 西 班 " => notify
+RSR75-0-0	能 否 找 一 个 评 分 为 6 的 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR76-0-0	前 往 一 家 餐 厅 预 约 至 少 8 份 评 论 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 8 => notify
+RSR77-0-0	寻 找 寧 夏 夜 市 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 寧 夏 夜 市 " => notify
+RSR78-0-0	展 示 给 我 看 多 国 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 " => notify
+RSR79-0-0	找 到 所 有 葡 萄 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 葡 萄 " => notify
+RSR80-0-0	显 示 所 有 餐 厅 的 评 分 与 确 切 的 六 颗 星 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR81-0-0	新 荣 记 在 哪 里 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 新 荣 记 " ) => notify
+RSR82-0-0	寻 找 萄 牙 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 萄 牙 " => notify
+RSR83-0-0	显 示 家 樂 福 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 家 樂 福 " => notify
+RSR84-0-0	发 现 超 过 六 份 评 论 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR85-0-0	浦 城 街 巷 2 號 中 的 手 手 市 集 是 否 进 行 过 审 查 ?	now => [ param:aggregateRating.reviewCount:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 浦 城 街 巷 2 號 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 手 手 市 集 " ) => notify
+RSR86-0-0	你 能 给 我 看 一 下 正 發 青 草 店 的 收 视 率 吗 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 正 發 青 草 店 " ) => notify
+RSR87-0-0	你 能 找 到 我 所 在 位 置 附 近 的 餐 厅 吗 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( @org.schema.Restaurant.Restaurant ) ) ) [ 1 ] => notify
+RSR88-0-0	帮 我 找 家 墨 西 哥 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR89-0-0	请 在 西 单 北 大 街 号 君 太 货 上 给 我 找 个 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 西 单 北 大 街 号 君 太 货 " => notify
+RSR90-0-0	请 给 我 展 示 最 高 分 的 餐 厅	now => ( sort param:aggregateRating.ratingValue:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR91-0-0	哪 些 餐 厅 是 最 高 审 查 数 ?	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR92-0-0	定 乡 餐 馆 审 查 的 目 的 是 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:author:Entity(org.schema.Restaurant:Person) == " 定乡 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } => notify
+RSR93-0-0	寻 找 俄 罗 斯 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 斯 " => notify
+RSR94-0-0	当 地 有 多 少 审 查 ?	now => [ param:aggregateRating.reviewCount:Number ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR95-0-0	最 近 的 墨 西 哥 地 点 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " ) ) ) [ 1 ] ) => notify
+RSR96-0-0	附 近 有 多 少 地 方 可 以 吃 ?	now => aggregate count of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location ) => notify
+RSR97-0-0	显 示 所 有 10 颗 星 以 下 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number <= 10 => notify
+RSR98-0-0	拉 丁 风	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR99-0-0	发 现 被 评 为 8 以 下 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number <= 8 => notify
+RSR100-0-0	寻 找 快 餐 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 快 餐 " => notify
+RSR101-0-0	展 示 给 我 看 尔 兰 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 尔 兰 " => notify
+RSR102-0-0	显 示 我 小 山 日 本 料 理 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 小 山 日 本 料 理 " => notify
+RSR103-0-0	超 过 六 份 评 论 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR104-0-0	是 否 有 一 家 名 为 魅 酒 吧 的 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 魅 酒 吧 " => notify
+RSR105-0-0	在 我 的 地 区 最 低 分 级 的 餐 厅 是 什 么 ?	now => ( sort param:aggregateRating.ratingValue:Number asc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location ) ) [ 1 ] => notify
+RSR106-0-0	最 高 等 级 的 餐 厅 是 什 么 ?	now => ( sort param:aggregateRating.ratingValue:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR107-0-0	附 近 有 一 家 俄 罗 斯 餐 厅 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 俄 罗 斯 " => notify
+RSR108-0-0	最 近 的 餐 馆 地 址 是 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( @org.schema.Restaurant.Restaurant ) ) ) [ 1 ] ) => notify
+RSR109-0-0	淚 滴 熊 在 哪 里 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR110-0-0	展 示 给 我 看 的 多 国 料 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 料 " => notify
+RSR111-0-0	6 个 明 星 餐 厅 都 给 我 看	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR112-0-0	展 示 给 我 看 5 道 营 胡 同 号 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 5 道 营 胡 同 号 " => notify
+RSR113-0-0	显 示 季 候 风 的 地 址	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 季 候 风 " ) => notify
+RSR114-0-0	搜 索 最 近 的 西 鬧 市 集 餐 馆 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 鬧 市 集 " ) ) ) [ 1 ] => notify
+RSR115-0-0	找 到 一 个 寿 司 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 寿 司 " => notify
+RSR116-0-0	展 示 给 我 看 斯 风 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 斯 风 " => notify
+RSR117-0-0	显 示 最 佳 餐 厅	now => ( sort param:aggregateRating.ratingValue:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR118-0-0	带 我 参 观 附 近 餐 厅 的 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location => notify
+RSR119-0-0	显 示 我 最 欣 赏 的 餐 厅	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR120-0-0	找 到 我 的 墨 西 哥 处 所	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR121-0-0	找 到 德 国 菜 地 点 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR122-0-0	展 示 给 我 看 一 个 德 国 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 " => notify
+RSR123-0-0	寻 找 所 有 8 颗 星 的 拉 丁 风 位 置 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 8 and param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR124-0-0	展 示 我 的 墨 西 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 " => notify
+RSR125-0-0	找 到 所 有 8 家 明 星 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 8 => notify
+RSR126-0-0	要 看 至 少 5 分 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 => notify
+RSR127-0-0	你 能 给 我 看 西 班 牙 餐 厅 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 西 班 牙 " => notify
+RSR128-0-0	最 高 评 级 的 俄 罗 斯 餐 厅 的 价 格 范 围 是 多 少 ?	now => [ param:priceRange:String ] of ( ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 斯 " ) ) [ 1 ] ) => notify
+RSR129-0-0	为 我 找 到 新 疆 伊 斯 兰 饭 庄 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 新 疆 伊 斯 兰 饭 庄 " => notify
+RSR130-0-0	最 近 一 次 评 论 是 写 给 聚 宝 源 的 ?	now => [ param:author:Entity(org.schema.Restaurant:Person) ] of ( ( sort param:datePublished:Date desc of ( ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " ) join ( @org.schema.Restaurant.Review ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) ) ) [ 1 ] ) => notify
+RSR131-0-0	显 示 我 六 分 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR132-0-0	找 一 些 寿 司 商 店 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 寿 司 " => notify
+RSR133-0-0	搜 索 俄 罗 斯 关 节 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 斯 " => notify
+RSR134-0-0	德 伦 所 审 查 的 餐 馆 是 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:author:Entity(org.schema.Restaurant:Person) == " 德伦 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } => notify
+RSR135-0-0	显 示 所 有 的 餐 馆 评 级 超 过 6。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR136-0-0	寻 找 附 近 的 快 餐 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 快 餐 " => notify
+RSR137-0-0	给 我 看 任 何 罗 斯 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 罗 斯 " => notify
+RSR138-0-0	发 现 所 有 的 餐 厅 评 级 是 8 左 右 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 8 => notify
+RSR139-0-0	帮 我 找 到 王 府 井 烤 鸭 店 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " => notify
+RSR140-0-0	告 诉 我 無 印 良 品 的 邮 政 编 码 。	now => [ param:address.postalCode:String ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 無 印 良 品 " ) => notify
+RSR141-0-0	显 示 尔 兰 餐 厅 列 表 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 尔 兰 " => notify
+RSR142-0-0	在 我 的 市 中 心 找 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location => notify
+RSR143-0-0	显 示 至 少 8 次 评 议 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 8 => notify
+RSR144-0-0	将 所 有 的 餐 馆 评 论 都 用 奋 芳 显 示 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 奋芳 " ^^org.schema.Restaurant:Person => notify
+RSR145-0-0	寻 找 刘 宅 食 府 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " => notify
+RSR146-0-0	展 示 我 德 国 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 " => notify
+RSR147-0-0	给 我 看 一 流 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 1 => notify
+RSR148-0-0	所 有 的 餐 馆 都 得 8 分	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 8 => notify
+RSR149-0-0	查 找 闲 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 闲 " => notify
+RSR150-0-0	搜 索 所 有 6 个 星 座 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR151-0-0	寻 找 拉 丁 风 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR152-0-0	显 示 餐 厅 与 六 份 评 论 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount == 6 => notify
+RSR153-0-0	显 示 所 有 评 分 为 5 或 5 以 上 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 => notify
+RSR154-0-0	寻 找 康 餐 烹 饪 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 康 餐 " => notify
+RSR155-0-0	显 示 至 少 5 份 评 议 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 => notify
+RSR156-0-0	显 示 总 评 分 为 10 或 10 以 上 的 任 何 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 10 => notify
+RSR157-0-0	我 想 看 一 些 寿 司 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 寿 司 " => notify
+RSR158-0-0	展 示 给 我 看 八 星 级 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 8 => notify
+RSR159-0-0	最 接 近 我 的 餐 厅 是 什 么 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( @org.schema.Restaurant.Restaurant ) ) ) [ 1 ] => notify
+RSR160-0-0	搜 索 西 贡 妈 妈 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 贡 妈 妈 " => notify
+RSR161-0-0	显 示 我 看 的 餐 馆 评 分 至 少 是 5 颗 星 星	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 => notify
+RSR162-0-0	帮 我 找 一 家 叫 亮 马 河 饭 店 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 亮 马 河 饭 店 " => notify
+RSR163-0-0	展 示 给 我 看 健 康 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 健 康 " => notify
+RSR164-0-0	我 想 找 到 巴 黎 餐 吧 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 巴 黎 餐 吧 " => notify
+RSR165-0-0	我 想 看 看 所 有 的 来 西 亚 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 来 西 亚 " => notify
+RSR166-0-0	显 示 所 有 餐 厅 , 排 名 五 星 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 => notify
+RSR167-0-0	找 到 所 有 餐 厅 提 供 葡 萄 牙 的 菜	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 葡 萄 牙 " => notify
+RSR168-0-0	寻 找 家 樂 福 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 家 樂 福 " => notify
+RSR169-0-0	找 到 西 班 牙 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 西 班 牙 " => notify
+RSR170-0-0	查 找 凤 阁 的 所 有 评 论 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 凤阁 " ^^org.schema.Restaurant:Person => notify
+RSR171-0-0	显 示 超 过 8 次 评 议 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 8 => notify
+RSR172-0-0	发 现 餐 厅 的 评 级 是 5	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 => notify
+RSR173-0-0	请 给 我 一 份 排 名 8 级 以 上 的 餐 厅 名 单	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 8 => notify
+RSR174-0-0	请 找 到 最 高 等 级 的 俄 罗 餐 厅 。	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 " ) ) [ 1 ] => notify
+RSR175-0-0	我 想 看 最 顶 层 的 墨 西 餐 厅	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 " ) ) [ 1 ] => notify
+RSR176-0-0	能 不 能 让 我 看 看 那 些 有 超 过 5 份 评 论 的 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 => notify
+RSR177-0-0	搜 索 溫 洲 大 餛 飩 的 搜 索	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 溫 洲 大 餛 飩 " => notify
+RSR178-0-0	显 示 所 有 奋 芳 审 评	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 奋芳 " ^^org.schema.Restaurant:Person => notify
+RSR179-0-0	以 市 府 路 號 查 查 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 市 府 路 號 " => notify
+RSR180-0-0	寧 夏 夜 市	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 寧 夏 夜 市 " => notify
+RSR181-0-0	展 示 给 我 看 多 国 料 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 料 " => notify
+RSR182-0-0	找 到 至 少 6 次 审 查 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR183-0-0	西 贡 妈 妈 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 贡 妈 妈 " => notify
+RSR184-0-0	什 么 是 最 近 的 餐 馆 ?	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( @org.schema.Restaurant.Restaurant ) ) ) [ 1 ] => notify
+RSR185-0-0	显 示 我 所 有 的 餐 厅 评 分 至 少 是 八 颗 星 星	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 8 => notify
+RSR186-0-0	西 鬧 市 集 发 现	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 鬧 市 集 " => notify
+RSR187-0-0	国 料	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 国 料 " => notify
+RSR188-0-0	告 诉 所 有 5 级 以 上 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 => notify
+RSR189-0-0	来 给 我 看 餐 厅 里 最 精 彩 的 评 评	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR190-0-0	找 到 由 川 里 审 评 的 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:author:Entity(org.schema.Restaurant:Person) == " 川里 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } => notify
+RSR191-0-0	展 示 给 我 看 多 国 料 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 料 " => notify
+RSR192-0-0	发 现 六 星 级 以 上 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR193-0-0	列 出 超 过 十 份 评 论 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 10 => notify
+RSR194-0-0	淚 滴 熊 搜 索	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " => notify
+RSR195-0-0	展 示 给 我 看 拉 丁 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 " => notify
+RSR196-0-0	显 示 餐 厅 超 过 十 份 评 论 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 10 => notify
+RSR197-0-0	发 现 所 有 餐 厅 的 评 分 都 高 于 10	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 10 => notify
+RSR198-0-0	寻 找 家 樂 福 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 家 樂 福 " => notify
+RSR199-0-0	展 示 给 我 看 爱 尔 兰 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 爱 尔 兰 " => notify
+RSR200-0-0	寻 找 快 餐 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 快 餐 " => notify
+RSR201-0-0	列 出 所 有 超 过 6 颗 星 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR202-0-0	小 山 日 本 料 理 餐 馆 的 地 址 是 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 小 山 日 本 料 理 " ) => notify
+RSR203-0-0	晶 晶 飾 品 餐 厅 的 评 级 如 何 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR204-0-0	最 近 的 泰 国 菜 商 店 的 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 菜 " ) ) ) [ 1 ] ) => notify
+RSR205-0-0	忠 孝 東 路 一 段 號	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 忠 孝 東 路 一 段 號 " => notify
+RSR206-0-0	在 中 和 區 , 我 找 个 地 方 吃 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 中 和 區 " => notify
+RSR207-0-0	请 查 查 那 些 有 5 个 明 星 收 视 率 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 => notify
+RSR208-0-0	戴	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:author:Entity(org.schema.Restaurant:Person) == " 戴 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } => notify
+RSR209-0-0	显 示 由 杜 义 编 写 的 评 论 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 杜义 " ^^org.schema.Restaurant:Person => notify
+RSR210-0-0	程 府 宴 的 审 评 有 多 少 ?	now => [ param:aggregateRating.reviewCount:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 程 府 宴 " ) => notify
+RSR211-0-0	有 多 少 餐 馆 的 平 均 评 级 高 于 5 ?	now => aggregate count of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 ) => notify
+RSR212-0-0	臨 江 街 上 的 鸿 运 楼 烤 鸭 店 的 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 臨 江 街 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 鸿 运 楼 烤 鸭 店 " ) => notify
+RSR213-0-0	想 要 吃 德 国 食 物	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 " => notify
+RSR214-0-0	超 过 八 星 级 的 快 餐 评 级	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 8 and param:servesCuisine:String =~ " 快 餐 " => notify
+RSR215-0-0	任 何 食 物 只 要 超 过 六 份 评 论	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR216-0-0	哪 里 能 找 到 最 近 的 德 国 菜 联 合 点 。	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 菜 " ) ) ) [ 1 ] ) => notify
+RSR217-0-0	搜 索 所 有 审 查 , 由 春 华 搜 索 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 春华 " ^^org.schema.Restaurant:Person => notify
+RSR218-0-0	我 想 一 个 墨 西 哥 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR219-0-0	我 想 要 所 有 有 6 颗 星 以 上 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR220-0-0	显 示 我 肉 骨 茶 坊	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 肉 骨 茶 坊 " => notify
+RSR221-0-0	显 示 我 餐 厅 与 审 查 最 多 。	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR222-0-0	丁 风	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 丁 风 " => notify
+RSR223-0-0	我 想 要 6 级 以 上 或 6 级 以 上 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR224-0-0	以 拉 链 代 码 10007 找 到 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " => notify
+RSR225-0-0	需 要 超 过 六 份 评 论 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR226-0-0	显 示 所 有 至 少 评 分 为 8 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 8 => notify
+RSR227-0-0	寻 找 至 少 6 人 经 过 审 查 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR228-0-0	建 立 俄 罗 斯 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 斯 " => notify
+RSR229-0-0	能 否 提 前 准 备 找 餐 馆 肉 骨 茶 坊 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 肉 骨 茶 坊 " => notify
+RSR230-0-0	搜 索 頂 好 名 店 城 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 頂 好 名 店 城 " => notify
+RSR231-0-0	搜 索 所 有 10 个 星 级 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 10 => notify
+RSR232-0-0	展 示 给 我 看 德 国 菜 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR233-0-0	显 示 我 所 登 的 6 份 以 上 评 论 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR234-0-0	你 能 在 我 的 区 域 找 到 一 个 淚 滴 熊 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " => notify
+RSR235-0-0	当 地 是 我 国 地 区 最 好 的 德 国 菜 联 合 点 。	now => [ param:geo ] of ( ( sort param:aggregateRating.ratingValue desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo == location:current_location and param:servesCuisine =~ " 德 国 菜 " ) ) [ 1 ] ) => notify
+RSR236-0-0	该 地 区 晶 晶 飾 品 的 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR237-0-0	在 柳 河 水 库 周 围 5 英 里 处 , 哪 些 是 排 名 最 高 的 西 哥 。	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 西 哥 " and distance ( param:geo:Location , location: " 柳河水库 " ) <= 5 unit:mi ) ) [ 1 ] => notify
+RSR238-0-0	请 给 我 看 所 有 位 于 浦 城 街 巷 2 號 的 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 浦 城 街 巷 2 號 " => notify
+RSR239-0-0	哪 个 餐 馆 的 评 分 最 高 ?	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR240-0-0	戴 的 复 审 公 布 的 日 期 是 哪 一 天 ?	now => [ param:datePublished:Date ] of ( ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 戴 " ^^org.schema.Restaurant:Person ) => notify
+RSR241-0-0	哪 些 餐 馆 在 民 樂 街 號 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 民 樂 街 號 " => notify
+RSR242-0-0	烧 烤	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 烧 烤 " => notify
+RSR243-0-0	向 您 展 示 在 中 和 區 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 中 和 區 " => notify
+RSR244-0-0	请 在 附 近 给 我 展 示 国 料 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 国 料 " => notify
+RSR245-0-0	提 供 最 近 的 10007 区 域 的 爱 尔 94102 区 域 的 游 览 餐 馆 的 电 话 号 码 。	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " and param:servesCuisine:String =~ " 爱 尔 " ) ) ) [ 1 ] ) => notify
+RSR246-0-0	找 到 超 过 十 份 评 论 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 10 => notify
+RSR247-0-0	最 靠 近 的 無 印 良 品	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 無 印 良 品 " ) ) ) [ 1 ] ) => notify
+RSR248-0-0	是 否 有 一 家 西 哥 餐 馆 ,	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 and param:servesCuisine:String =~ " 西 哥 " ) => notify
+RSR249-0-0	奋 芳 的 所 有 评 级	now => [ param:reviewRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 奋芳 " ^^org.schema.Restaurant:Person ) => notify
+RSR250-0-0	寻 找 本 城 市 的 萄 牙 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 萄 牙 " => notify
+RSR251-0-0	显 示 定 乡 所 写 的 评 论 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 定乡 " ^^org.schema.Restaurant:Person => notify
+RSR252-0-0	哪 里 能 找 到 最 近 的 華 美 新 古 典 麵 食 館 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 華 美 新 古 典 麵 食 館 " ) ) ) [ 1 ] ) => notify
+RSR253-0-0	搜 索 西 鬧 市 集	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 鬧 市 集 " => notify
+RSR254-0-0	寻 找 康 餐 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 康 餐 " => notify
+RSR255-0-0	显 示 我 餐 厅 , 至 少 六 星 级 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR256-0-0	亿 多 瑞 站 有 多 少 评 论 ?	now => [ param:aggregateRating.reviewCount:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 亿 多 瑞 站 " ) => notify
+RSR257-0-0	展 示 给 我 看 尔 兰 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 尔 兰 " => notify
+RSR258-0-0	最 近 的 華 山 市 場 离 这 里 多 远 ?	now => [ param:distance:Measure(m) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 華 山 市 場 " ) ) ) [ 1 ] ) => notify
+RSR259-0-0	附 近 东 风 食 物	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo == location:current_location and param:servesCuisine =~ " 东 风 " => notify
+RSR260-0-0	显 示 我 的 溫 洲 大 餛 飩	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 溫 洲 大 餛 飩 " => notify
+RSR261-0-0	搜 索 至 少 有 5 颗 星 星 的 国 料 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 and param:servesCuisine:String =~ " 国 料 " => notify
+RSR262-0-0	告 诉 我 对 程 府 宴 的 评 级 。	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 程 府 宴 " ) => notify
+RSR263-0-0	列 出 墨 西 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 " => notify
+RSR264-0-0	东 城 区 东 交 民 巷 号 中 最 高 等 级 的 德 国 菜 位 置 是 什 么 ?	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 东 城 区 东 交 民 巷 号 " and param:servesCuisine:String =~ " 德 国 菜 " ) ) [ 1 ] => notify
+RSR265-0-0	搜 索 至 少 有 6 份 评 论 的 拉 丁 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 and param:servesCuisine:String =~ " 拉 丁 " => notify
+RSR266-0-0	展 示 我 德 国 菜 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR267-0-0	给 我 附 近 5 星 级 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location:current_location => notify
+RSR268-0-0	以 审 查 量 最 多 的 方 式 找 到 餐 厅 。	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR269-0-0	寻 找 亿 多 瑞 站 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 亿 多 瑞 站 " => notify
+RSR270-0-0	我 想 看 超 过 6 份 评 论 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR271-0-0	寻 找 卖 德 国 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine =~ " 德 国 " => notify
+RSR272-0-0	泰 国 餐 厅 在 关 东 店 北 街 号 叫 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 关 东 店 北 街 号 " and param:servesCuisine:String =~ " 泰 国 " => notify
+RSR273-0-0	显 示 我 最 高 等 级 的 餐 厅 。	now => ( sort param:aggregateRating.ratingValue:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR274-0-0	最 近 的 3 样 菜 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 3 样 菜 " ) ) ) [ 1 ] ) => notify
+RSR275-0-0	6 个 明 星 葡 萄 牙 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:servesCuisine:String =~ " 葡 萄 牙 " => notify
+RSR276-0-0	发 现 所 有 评 分 高 于 8 的 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 8 => notify
+RSR277-0-0	显 示 一 份 少 于 6 份 评 论 的 餐 厅 清 单 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number <= 6 => notify
+RSR278-0-0	展 示 附 近 餐 厅 的 波 斯 风 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 波 斯 风 " => notify
+RSR279-0-0	在 朝 阳 区 工 体 东 路 4 号 村 寻 找 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 区 工 体 东 路 4 号 " => notify
+RSR280-0-0	西 班 牙	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 西 班 牙 " => notify
+RSR281-0-0	哪 个 健 康 餐 厅 得 到 的 审 查 最 多 ?	now => ( sort param:aggregateRating.reviewCount:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 健 康 " ) ) [ 1 ] => notify
+RSR282-0-0	3 样 菜 的 评 级 是 什 么 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 3 样 菜 " ) => notify
+RSR283-0-0	寻 找 聚 宝 源 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " => notify
+RSR284-0-0	哪 些 餐 馆 已 收 到 六 份 或 六 份 以 上 的 评 议 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR285-0-0	从 定 乡 中 查 找 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 定乡 " ^^org.schema.Restaurant:Person => notify
+RSR286-0-0	展 示 给 我 看 马 来 西 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 马 来 西 " => notify
+RSR287-0-0	多 国	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 " => notify
+RSR288-0-0	将 所 有 至 少 有 5 颗 星 星 的 拉 丁 风 餐 馆 都 给 我 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 and param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR289-0-0	搜 索 羲 和 3 里 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 羲 和 3 里 " => notify
+RSR290-0-0	附 近 有 聚 宝 源 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " => notify
+RSR291-0-0	找 到 所 有 的 爱 尔 兰 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 爱 尔 兰 " => notify
+RSR292-0-0	淚 滴 熊 的 评 级 是 多 少 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR293-0-0	以 拉 链 代 码 10007 显 示 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " => notify
+RSR294-0-0	哪 些 泰 国 菜 餐 厅 的 评 议 最 多 ?	now => ( sort param:aggregateRating.reviewCount:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 菜 " ) ) [ 1 ] => notify
+RSR295-0-0	亮 马 河 饭 店 的 评 级 是 什 么 样 的 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 亮 马 河 饭 店 " ) => notify
+RSR296-0-0	展 示 附 近 德 国 菜 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR297-0-0	请 让 我 看 一 看 今 年 为 晶 晶 飾 品 编 写 的 评 论 。	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) join ( ( @org.schema.Restaurant.Review ) filter param:datePublished:Date <= end_of unit:year and param:datePublished:Date >= start_of unit:year ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR298-0-0	寻 找 有 六 颗 星 星 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR299-0-0	寧 夏 夜 市 的 电 话 号 码 是 什 么 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 寧 夏 夜 市 " ) => notify
+RSR300-0-0	我 能 看 到 刘 宅 食 府 的 评 论 吗 ?	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " ) join ( @org.schema.Restaurant.Review ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR301-0-0	请 告 诉 我 西 鬧 市 集	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 鬧 市 集 " ) => notify
+RSR302-0-0	最 近 的 烧 烤 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 烧 烤 " ) ) ) [ 1 ] ) => notify
+RSR303-0-0	寻 找 王 府 井 烤 鸭 店 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " => notify
+RSR304-0-0	发 现 餐 厅 在 距 离 这 里 一 英 里 之 内 。	now => ( @org.schema.Restaurant.Restaurant ) filter distance ( param:geo:Location , location:current_location ) <= 1 unit:mi => notify
+RSR305-0-0	何 为 我 最 近 的 拉 丁 风 餐 馆	now => ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " ) ) ) [ 1 ] => notify
+RSR306-0-0	显 示 至 少 5 次 审 查 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 => notify
+RSR307-0-0	我 附 近 有 泰 国 餐 厅 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 泰 国 " => notify
+RSR308-0-0	给 我 10 星 级 餐 厅 的 电 话 号 码	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 10 ) => notify
+RSR309-0-0	显 示 我 所 有 由 戴 撰 写 的 关 于 德 国 餐 厅 的 评 论 。	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 " ) join ( ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 戴 " ^^org.schema.Restaurant:Person ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR310-0-0	显 示 最 高 等 级 的 波 斯 风 商 店 , 其 英 里 为 5 英 里 。	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 波 斯 风 " and distance ( param:geo:Location , location:current_location ) <= 5 unit:mi ) ) [ 1 ] => notify
+RSR311-0-0	显 示 5 到 5 之 间 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 and param:aggregateRating.ratingValue:Number <= 5 => notify
+RSR312-0-0	最 近 的 健 康 餐 厅 的 价 格 范 围 是 多 少 ?	now => [ param:priceRange:String ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 健 康 " ) ) ) [ 1 ] ) => notify
+RSR313-0-0	展 示 華 陰 街 號 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 華 陰 街 號 " => notify
+RSR314-0-0	寻 找 所 有 爱 尔 兰 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 爱 尔 兰 " => notify
+RSR315-0-0	搜 索 基 辅 罗 斯 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 基 辅 罗 斯 餐 厅 " => notify
+RSR316-0-0	找 到 我 的 拉 丁 风	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR317-0-0	你 能 给 我 找 到 鸿 运 楼 烤 鸭 店 的 电 话 号 码 吗 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 鸿 运 楼 烤 鸭 店 " ) => notify
+RSR318-0-0	来 给 我 看 餐 厅 最 精 彩 的 评 语	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR319-0-0	宜 家 家 居 餐 厅 电 话 号 码 是 什 么 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 宜 家 家 居 餐 厅 " ) => notify
+RSR320-0-0	给 6 次 或 6 次 以 上 复 议 的 餐 厅 电 话 号 码	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 ) => notify
+RSR321-0-0	找 到 我 聚 宝 源 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " => notify
+RSR322-0-0	显 示 我 所 有 5 星 级 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 => notify
+RSR323-0-0	葡 萄 牙	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 and param:geo:Location == location:current_location and param:servesCuisine:String =~ " 葡 萄 牙 " => notify
+RSR324-0-0	显 示 由 春 涛 撰 写 的 复 述 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 春涛 " ^^org.schema.Restaurant:Person => notify
+RSR325-0-0	找 到 所 有 被 评 为 高 于 8 以 上 的 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 8 => notify
+RSR326-0-0	寻 找 墨 西 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 " => notify
+RSR327-0-0	是 否 有 任 何 一 项 星 级 审 查 ?	now => ( @org.schema.Restaurant.Review ) filter param:reviewRating.ratingValue:Number == 1 => notify
+RSR328-0-0	超 过 六 次 审 查 的 餐 厅 搜 索 .	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR329-0-0	最 高 六 星 级 餐 厅 是 什 么 ?	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 ) ) [ 1 ] => notify
+RSR330-0-0	新 荣 记 的 电 话 和 地 址 是 什 么 ?	now => [ param:geo:Location , param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 新 荣 记 " ) => notify
+RSR331-0-0	展 示 给 我 看 都 江 源	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 都 江 源 " => notify
+RSR332-0-0	是 否 有 任 何 罗 斯 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 and param:servesCuisine:String =~ " 罗 斯 " => notify
+RSR333-0-0	10007 中 的 94103 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " => notify
+RSR334-0-0	展 示 给 我 看 所 有 健 康 餐 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 健 康 餐 " => notify
+RSR335-0-0	给 一 个 叫 拉 丁 风 的 餐 厅 命 名 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR336-0-0	显 示 5 个 明 星 在 華 陰 街 號 上 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location: " 華 陰 街 號 " => notify
+RSR337-0-0	健 康 餐	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 健 康 餐 " => notify
+RSR338-0-0	显 示 所 有 经 春 华 检 查 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:author:Entity(org.schema.Restaurant:Person) == " 春华 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } => notify
+RSR339-0-0	想 知 道 淚 滴 熊 的 地 址 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR340-0-0	展 示 给 大 家 看 一 个 拉 丁 餐 厅 , 评 分 为 5。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:servesCuisine:String =~ " 拉 丁 " => notify
+RSR341-0-0	哪 个 餐 厅 的 评 议 最 多 ?	now => ( sort param:aggregateRating.reviewCount:Number desc of ( @org.schema.Restaurant.Restaurant ) ) [ 1 ] => notify
+RSR342-0-0	搜 索 俄 罗 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 " => notify
+RSR343-0-0	来 回 顾 一 下 晶 晶 飾 品 。	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) join ( @org.schema.Restaurant.Review ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR344-0-0	咪 吖 咪 吖 的 价 格 范 围 是 多 少 ?	now => [ param:priceRange:String ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " ) => notify
+RSR345-0-0	找 到 泰 国 餐 馆 , 至 少 进 行 6 次 审 查 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 and param:servesCuisine:String =~ " 泰 国 " => notify
+RSR346-0-0	最 近 的 闲 在 哪 里 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 闲 " ) ) ) [ 1 ] ) => notify
+RSR347-0-0	在 增 光 路 11 号 找 到 所 有 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 增 光 路 11 号 " => notify
+RSR348-0-0	是 否 有 一 家 餐 馆 在 拉 链 码 10007 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " => notify
+RSR349-0-0	我 在 找 拉 丁 风 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR350-0-0	显 示 过 去 6 天 的 申 德 加 油 站 餐 厅 审 评 。	now => ( ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 申 德 加 油 站 餐 厅 " ) join ( ( @org.schema.Restaurant.Review ) filter param:datePublished:Date >= now - 6 unit:day ) ) filter param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) => notify
+RSR351-0-0	给 我 看 看 附 近 所 有 五 星 级 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location:current_location => notify
+RSR352-0-0	显 示 超 过 6 个 审 查 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 6 => notify
+RSR353-0-0	我 需 要 找 到 所 有 6 星 级 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 6 => notify
+RSR354-0-0	寻 找 墨 西 哥 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR355-0-0	显 示 至 少 六 星 级 的 来 西 亚 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 and param:servesCuisine:String =~ " 来 西 亚 " => notify
+RSR356-0-0	寻 找 羲 和 3 里 餐 厅 给 我 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 羲 和 3 里 " => notify
+RSR357-0-0	展 示 我 用 民 樂 街 號 展 示 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 民 樂 街 號 " => notify
+RSR358-0-0	寻 找 俄 罗 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 " => notify
+RSR359-0-0	展 示 我 的 泰 国 菜 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 菜 " => notify
+RSR360-0-0	我 最 接 近 的 俄 罗 餐 厅 的 价 格 范 围 是 多 少 ?	now => [ param:priceRange:String ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 " ) ) ) [ 1 ] ) => notify
+RSR361-0-0	展 示 给 我 看 南 长 街 号 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 南 长 街 号 " => notify
+RSR362-0-0	显 示 前 10 个 爱 尔 兰 餐 馆 5 道 营 胡 同 号	now => ( sort param:aggregateRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 5 道 营 胡 同 号 " and param:servesCuisine:String =~ " 爱 尔 兰 " ) ) [ 1 : 10 ] => notify
+RSR363-0-0	显 示 我 所 有 由 董 审 查 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:author:Entity(org.schema.Restaurant:Person) == " 董 " ^^org.schema.Restaurant:Person and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } => notify
+RSR364-0-0	给 我 看 無 印 良 品	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 無 印 良 品 " => notify
+RSR365-0-0	上 月 的 评 评 , 我 看 所 有 多 国 料 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:datePublished:Date <= start_of unit:mon - 1 unit:mon and param:datePublished:Date >= start_of unit:mon and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } and param:servesCuisine:String =~ " 多 国 料 " => notify
+RSR366-0-0	显 示 在 6 以 上 评 分 的 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 6 => notify
+RSR367-0-0	多 国	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 " => notify
+RSR368-0-0	展 示 给 我 看 墨 西 哥 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR369-0-0	寻 找 烧 烤 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter @org.schema.Restaurant.Review { param:datePublished:Date <= start_of unit:mon - 1 unit:mon and param:datePublished:Date >= start_of unit:mon and param:id:Entity(org.schema.Restaurant:Review) in_array param:review:Array(Entity(org.schema.Restaurant:Review)) } and param:servesCuisine:String =~ " 烧 烤 " => notify
+RSR370-0-0	查 找 寧 夏 夜 市 的 地 址 。	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 寧 夏 夜 市 " ) => notify
+RSR371-0-0	显 示 由 春 华 撰 写 的 餐 厅 评 论 。	now => ( @org.schema.Restaurant.Review ) filter param:author:Entity(org.schema.Restaurant:Person) == " 春华 " ^^org.schema.Restaurant:Person => notify
+RSR372-0-0	寻 找 王 府 井 烤 鸭 店 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " => notify
+RSR373-0-0	泰 国 菜	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 菜 " => notify
+RSR374-0-0	给 我 一 个 多 国 餐 厅 的 名 字	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 多 国 " => notify
+RSR375-0-0	寻 找 10007 拉 链 码 中 的 聚 宝 源 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 聚 宝 源 " => notify
+RSR376-0-0	在 朝 阳 公 园 老 西 门 南 侧 中 找 到 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 公 园 老 西 门 南 侧 " => notify
+RSR377-0-0	最 近 的 巴 黎 餐 吧 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 巴 黎 餐 吧 " ) ) ) [ 1 ] ) => notify
+RSR378-0-0	你 能 帮 我 找 一 家 五 星 级 餐 厅 允 许 抽 雪 茄 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:smokingAllowed:Boolean == true => notify
+RSR379-0-0	开 在 TIME_0 , 价 格 平 和 的 餐 厅 能 买 到 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains TIME_0 and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:moderate => notify
+RSR380-0-0	您 能 否 找 到 一 个 在 TIME_0 之 前 开 放 的 本 地 泰 国 菜 地 点 的 电 话 号 码 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:openingHours:RecurrentTimeSpecification contains TIME_0 and param:servesCuisine:String =~ " 泰 国 菜 " ) => notify
+RSR381-0-0	能 给 我 找 家 昂 贵 的 西 班 牙 餐 厅 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 4 and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive and param:servesCuisine:String =~ " 西 班 牙 " => notify
+RSR382-0-0	显 示 我 的 马 来 西 亚 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 马 来 西 亚 " and param:starRating.ratingValue:Number == 3 => notify
+RSR383-0-0	展 示 允 许 在 室 内 吸 烟 的 烧 烤 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 烧 烤 " and param:smokingAllowed:Boolean == true => notify
+RSR384-0-0	我 附 近 的 丁 风 餐 厅 接 受 预 订 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:geo:Location == location:current_location and param:servesCuisine:String =~ " 丁 风 " => notify
+RSR385-0-0	3 个 michelin 星 级 餐 厅 接 受 订 位 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:starRating.ratingValue:Number == 3 => notify
+RSR386-0-0	什 么 昂 贵 的 餐 厅 不 允 许 吸 烟 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive and param:smokingAllowed:Boolean == false => notify
+RSR387-0-0	王 府 井 烤 鸭 店 的 价 格 范 围 是 多 少 ?	now => [ param:priceRange:Enum(cheap,moderate,expensive,luxury) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " ) => notify
+RSR388-0-0	离 我 最 近 的 三 星 米 切 林 餐 厅 地 址 是 什 么 ?	now => [ param:geo:Location ] of ( ( sort param:distance:Measure(m) asc of ( compute distance ( param:geo:Location , location:current_location ) of ( ( @org.schema.Restaurant.Restaurant ) filter param:starRating.ratingValue:Number == 3 ) ) ) [ 1 ] ) => notify
+RSR389-0-0	贵 贵 餐 厅 允 许 吸 烟 的	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive and param:smokingAllowed:Boolean == true => notify
+RSR390-0-0	展 示 给 我 看 , 请 订 餐 厅 的 西 亚	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:servesCuisine:String =~ " 西 亚 " => notify
+RSR391-0-0	为 何 餐 厅 在 TIME_0 之 前 开 张 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 and param:openingHours:RecurrentTimeSpecification contains TIME_0 => notify
+RSR392-0-0	允 许 吸 烟 的 餐 厅 价 格 温 和 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:moderate and param:smokingAllowed:Boolean == true => notify
+RSR393-0-0	哪 些 餐 馆 接 受 5 级 的 评 分 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:aggregateRating.ratingValue:Number == 5 => notify
+RSR394-0-0	是 否 有 一 家 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive and param:starRating.ratingValue:Number == 3 => notify
+RSR395-0-0	请 告 诉 我 关 于 餐 厅 的 情 况 最 起 码 有 1 个 米 切 林 明 星 的 分 数	now => ( @org.schema.Restaurant.Restaurant ) filter param:starRating.ratingValue:Number >= 1 => notify
+RSR396-0-0	是 否 有 中 东 食 品 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 中 东 " and param:starRating.ratingValue:Number == 2 => notify
+RSR397-0-0	允 许 吸 烟 的 德 国 食 物 场 所 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 " and param:smokingAllowed:Boolean == true => notify
+RSR398-0-0	有 多 少 闪 烁 星 ? 王 府 井 烤 鸭 店 有 多 少 ?	now => [ param:starRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " ) => notify
+RSR399-0-0	发 现 我 餐 厅 最 高 米 切 林 星 级 在 这 一 地 区 。	now => ( sort param:starRating.ratingValue:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location ) ) [ 1 ] => notify
+RSR400-0-0	显 示 我 所 有 的 餐 厅 美 切 林 的 评 级 高 于 10 总 体 的 评 级 高 于 5	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 and param:starRating.ratingValue:Number >= 10 => notify
+RSR401-0-0	是 否 有 一 家 波 斯 风 餐 厅 在 TIME_0 或 更 早 开 放 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains TIME_0 and param:servesCuisine:String =~ " 波 斯 风 " => notify
+RSR402-0-0	给 我 一 家 不 吸 烟 的 罗 斯 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 罗 斯 " and param:smokingAllowed:Boolean == false => notify
+RSR403-0-0	你 什 么 时 候 开 始 提 供 食 物 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR404-0-0	允 许 在 晶 晶 飾 品 吸 烟 吗 ?	now => [ param:smokingAllowed:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR405-0-0	寻 找 多 国 料 的 餐 馆 , 接 受 预 订 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:servesCuisine:String =~ " 多 国 料 " => notify
+RSR406-0-0	寻 找 一 个 允 许 吸 烟 的 烧 烤 场 所 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 烧 烤 " and param:smokingAllowed:Boolean == true => notify
+RSR407-0-0	寻 找 一 家 俄 罗 斯 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 斯 " and param:starRating.ratingValue:Number == 3 => notify
+RSR408-0-0	羲 和 3 里 的 工 作 时 间 是 多 少 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 羲 和 3 里 " ) => notify
+RSR409-0-0	请 列 出 在 松 勤 街 號 设 有 3 个 米 切 林 星 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 松 勤 街 號 " and param:starRating.ratingValue:Number == 3 => notify
+RSR410-0-0	告 诉 我 , 哪 些 餐 馆 价 格 低 廉 , 有 3 颗 米 切 林 星 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap and param:starRating.ratingValue:Number == 3 => notify
+RSR411-0-0	哪 些 餐 馆 服 务 于 丁 风 菜 食 , 接 受 保 留 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:servesCuisine:String =~ " 丁 风 " => notify
+RSR412-0-0	请 给 我 看 餐 馆 , 至 少 有 一 颗 米 切 林 星 在 5 道 营 胡 同 号 中	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 5 道 营 胡 同 号 " and param:starRating.ratingValue:Number >= 1 => notify
+RSR413-0-0	显 示 超 过 9 个 审 查 位 置 并 接 受 保 留	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:aggregateRating.reviewCount:Number >= 9 => notify
+RSR414-0-0	是 否 有 餐 厅 允 许 吸 烟 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:smokingAllowed:Boolean == true => notify
+RSR415-0-0	将 餐 厅 置 于 中 价 范 围 内 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:moderate and param:smokingAllowed:Boolean == true => notify
+RSR416-0-0	找 到 五 星 餐 厅 接 受 预 订	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:aggregateRating.ratingValue:Number == 5 => notify
+RSR417-0-0	找 到 一 家 德 国 菜 餐 馆 , 开 到 午 夜 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains time:0:0:0 and param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR418-0-0	找 到 位 于 10007 里 拉 链 码 的 一 家 餐 厅 , 该 餐 馆 中 午 前 开 放 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " and param:openingHours:RecurrentTimeSpecification contains time:12:0:0 => notify
+RSR419-0-0	请 找 餐 馆 , 让 吸 烟 和 提 供 波 斯 风 菜 食 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 波 斯 风 " and param:smokingAllowed:Boolean == true => notify
+RSR420-0-0	你 会 找 亮 马 河 饭 店 餐 厅 服 务 于 泰 国 菜 食 品 吗 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 亮 马 河 饭 店 " and param:servesCuisine:String =~ " 泰 国 菜 " => notify
+RSR421-0-0	展 示 廉 价 的 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap and param:smokingAllowed:Boolean == true => notify
+RSR422-0-0	显 示 我 五 星 级 餐 厅 并 不 保 留 预 订 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == false and param:aggregateRating.ratingValue:Number == 5 => notify
+RSR423-0-0	斯 风	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 斯 风 " and param:starRating.ratingValue:Number >= 1 => notify
+RSR424-0-0	5 个 明 星 餐 厅 预 定 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:aggregateRating.ratingValue:Number == 5 => notify
+RSR425-0-0	羲 和 3 里 桂 林 路 1 號 多 久 开 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 桂 林 路 1 號 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 羲 和 3 里 " ) => notify
+RSR426-0-0	有 多 少 餐 厅 在 GENERIC_ENTITY_tt:us_state_0 至 少 有 一 颗 百 万 兆 赫 林 星 ?	now => aggregate count of ( ( @org.schema.Restaurant.Restaurant ) filter param:address.addressRegion:Entity(tt:us_state) == GENERIC_ENTITY_tt:us_state_0 and param:starRating.ratingValue:Number >= 1 ) => notify
+RSR427-0-0	淚 滴 熊 是 否 提 出 保 留 意 见 ?	now => [ param:acceptsReservations:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR428-0-0	餐 馆 刘 宅 食 府 接 受 保 留 吗 ?	now => [ param:acceptsReservations:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " ) => notify
+RSR429-0-0	餐 厅 有 米 切 林 明 星 的 评 级 吗 ?	now => [ param:starRating.ratingValue:Number ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR430-0-0	你 的 餐 馆 有 吸 烟 区 吗 ?	now => [ param:smokingAllowed:Boolean ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR431-0-0	是 否 允 许 在 晶 晶 飾 品 吸 烟 ?	now => [ param:smokingAllowed:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR432-0-0	晶 晶 飾 品 是 否 作 出 保 留 ?	now => [ param:acceptsReservations:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " ) => notify
+RSR433-0-0	来 个 三 颗 米 切 林 星 的 泰 国 菜 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 泰 国 菜 " and param:starRating.ratingValue:Number == 3 => notify
+RSR434-0-0	我 需 要 一 个 昂 贵 的 餐 馆 在 朝 阳 区 团 结 湖 南 路 号 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 区 团 结 湖 南 路 号 " and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive => notify
+RSR435-0-0	增 光 路 11 号 附 近 是 否 有 允 许 吸 烟 的 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 增 光 路 11 号 " and param:smokingAllowed:Boolean == true => notify
+RSR436-0-0	朝 阳 新 东 路 是 否 有 仍 允 许 吸 烟 的 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 新 东 路 " and param:smokingAllowed:Boolean == true => notify
+RSR437-0-0	提 供 俄 罗 斯 食 物 和 允 许 吸 烟 的 餐 厅 是 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:smokingAllowed:Boolean == true and param:servesCuisine:String =~ " 俄 罗 斯 " => notify
+RSR438-0-0	一 家 餐 厅 是 什 么 样 的 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:aggregateRating.ratingValue:Number == 5 => notify
+RSR439-0-0	哪 里 的 餐 厅 有 3 兆 赫 星 星 接 近 我 的 地 址 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:home and param:starRating.ratingValue:Number == 3 => notify
+RSR440-0-0	能 否 找 到 一 家 至 少 拥 有 1 千 兆 赫 明 星 的 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:starRating.ratingValue:Number >= 1 => notify
+RSR441-0-0	哪 些 德 国 菜 餐 馆 不 允 许 吸 烟 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 德 国 菜 " and param:smokingAllowed:Boolean == false => notify
+RSR442-0-0	发 现 我 接 受 预 订 的 波 斯 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:servesCuisine:String =~ " 波 斯 " => notify
+RSR443-0-0	找 到 允 许 吸 烟 的 俄 罗 斯 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 俄 罗 斯 " and param:smokingAllowed:Boolean == true => notify
+RSR444-0-0	显 示 在 中 和 區 的 所 有 michelin 明 星 餐 馆 清 单 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 中 和 區 " and param:starRating.ratingValue:Number >= 1 => notify
+RSR445-0-0	列 出 十 二 点 整 开 放 的 餐 厅 名 单	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains time:0:0:0 => notify
+RSR446-0-0	是 否 有 michelin 星 光 餐 厅 环 绕 着 桂 林 路 1 號 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 桂 林 路 1 號 " and param:starRating.ratingValue:Number >= 1 => notify
+RSR447-0-0	魅 酒 吧 何 时 开 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 魅 酒 吧 " ) => notify
+RSR448-0-0	刘 宅 食 府 接 受 保 留 吗 ?	now => [ param:acceptsReservations:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " ) => notify
+RSR449-0-0	TIME_0 开 业 的 餐 馆 叫 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains TIME_0 => notify
+RSR450-0-0	允 许 吸 烟 的 餐 厅 叫 什 么 名 字 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:smokingAllowed:Boolean == true => notify
+RSR451-0-0	中 興 街 號 上 的 闲 是 否 允 许 吸 烟 ?	now => [ param:smokingAllowed:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 中 興 街 號 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 闲 " ) => notify
+RSR452-0-0	允 许 预 订 的 朝 阳 区 民 族 园 路 1 号 中 中 餐 馆 是 什 么 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:geo:Location == location: " 朝 阳 区 民 族 园 路 1 号 " and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:moderate => notify
+RSR453-0-0	一 家 三 星 级 米 切 林 餐 厅 的 名 称 是 什 么 ? 该 餐 馆 在 GENERIC_ENTITY_tt:us_state_0 中 提 供 烧 烤 服 务 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.addressRegion:Entity(tt:us_state) == GENERIC_ENTITY_tt:us_state_0 and param:servesCuisine:String =~ " 烧 烤 " and param:starRating.ratingValue:Number == 3 => notify
+RSR454-0-0	TIME_0	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:openingHours:RecurrentTimeSpecification contains TIME_0 => notify
+RSR455-0-0	找 到 一 家 现 在 开 着 的 餐 馆 以 拉 链 码 10007 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " and param:openingHours:RecurrentTimeSpecification contains now => notify
+RSR456-0-0	这 是 禁 烟 场 所 吗 ?	now => [ param:smokingAllowed:Boolean ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR457-0-0	寻 找 一 家 餐 厅 , 提 供 波 斯 风 食 品 , 允 许 吸 烟 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 波 斯 风 " and param:smokingAllowed:Boolean == true => notify
+RSR458-0-0	餐 厅 叫 什 么 ? 什 么 时 候 开 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR459-0-0	允 许 吸 烟 ,	now => [ param:acceptsReservations:Boolean , param:smokingAllowed:Boolean ] of ( @org.schema.Restaurant.Restaurant ) => notify
+RSR460-0-0	显 示 所 有 廉 价 价 格 范 围 内 的 爱 尔 餐 馆	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap and param:servesCuisine:String =~ " 爱 尔 " => notify
+RSR461-0-0	松 勤 街 號 的 餐 馆 里 有 三 颗 米 切 林 星 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 松 勤 街 號 " and param:starRating.ratingValue:Number == 3 => notify
+RSR462-0-0	何 为 拉 丁 风 餐 馆 允 许 吸 烟 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 拉 丁 风 " and param:smokingAllowed:Boolean == true => notify
+RSR463-0-0	俄 罗 中 和 區 拥 有 一 颗 米 切 林 星 ?	now => aggregate count of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 中 和 區 " and param:servesCuisine:String =~ " 俄 罗 " and param:starRating.ratingValue:Number == 1 ) => notify
+RSR464-0-0	朝 阳 新 东 路 中 爱 尔 兰 餐 馆 叫 什 么 名 字 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 新 东 路 " and param:servesCuisine:String =~ " 爱 尔 兰 " => notify
+RSR465-0-0	你 能 给 我 找 个 餐 厅 吗 ? 它 至 少 有 一 颗 米 切 林 星 而 且 是 在 華 陰 街 號	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 華 陰 街 號 " and param:starRating.ratingValue:Number >= 1 => notify
+RSR466-0-0	寻 找 廉 价 价 格 范 围 内 的 食 用 场 所 , 提 供 丁 风 食 物 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap and param:servesCuisine:String =~ " 丁 风 " => notify
+RSR467-0-0	帮 我 找 家 在 忠 孝 東 路 一 段 號 的 尔 兰 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 忠 孝 東 路 一 段 號 " and param:servesCuisine:String =~ " 尔 兰 " => notify
+RSR468-0-0	你 能 给 我 找 些 波 斯 风 地 方 吗 ? 这 些 地 方 位 于 臨 江 街 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 臨 江 街 " and param:servesCuisine:String =~ " 波 斯 风 " => notify
+RSR469-0-0	什 么 样 的 昂 贵 餐 馆 以 拉 链 代 码 10007 标 出 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:address.postalCode:String =~ " 10007 " and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive => notify
+RSR470-0-0	发 现 我 发 现 三 颗 星 米 切 林 评 为 丁 风 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 丁 风 " and param:starRating.ratingValue:Number == 3 => notify
+RSR471-0-0	附 近 有 什 么 廉 价 的 爱 尔 兰 餐 厅 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap and param:servesCuisine:String =~ " 爱 尔 兰 " => notify
+RSR472-0-0	找 到 我 贵 的 餐 馆 5 星 级 收 视 率 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive => notify
+RSR473-0-0	找 到 我 11 点 开 的 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:openingHours:RecurrentTimeSpecification contains time:11:0:0 => notify
+RSR474-0-0	在 南 纬 路 号 中 , 让 我 看 快 餐 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 南 纬 路 号 " and param:servesCuisine:String =~ " 快 餐 " => notify
+RSR475-0-0	魅 酒 吧 开 放 的 小 时 是 多 少 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 魅 酒 吧 " ) => notify
+RSR476-0-0	寧 夏 夜 市 评 级 如 何 ?	now => [ param:aggregateRating.ratingValue:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 寧 夏 夜 市 " ) => notify
+RSR477-0-0	家 樂 福 有 多 少 次 审 查 ?	now => [ param:aggregateRating.reviewCount:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 家 樂 福 " ) => notify
+RSR478-0-0	宝 源 饺 子 允 许 吸 烟 吗 ?	now => [ param:smokingAllowed:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 宝 源 饺 子 " ) => notify
+RSR479-0-0	糯 言 酒 馆	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 糯 言 酒 馆 " ) => notify
+RSR480-0-0	刘 宅 食 府 贵 吗 ?	now => [ param:priceRange:Enum(cheap,moderate,expensive,luxury) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " ) => notify
+RSR481-0-0	新 荣 记 卖 什 么 粮 食 ?	now => [ param:servesCuisine:String ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 新 荣 记 " ) => notify
+RSR482-0-0	展 示 了 淚 滴 熊 披 萨 的 照 片 。	now => [ param:image:Entity(tt:picture) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR483-0-0	亮 马 河 饭 店 有 多 少 次 审 查 ?	now => [ param:aggregateRating.reviewCount:Number ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 亮 马 河 饭 店 " ) => notify
+RSR484-0-0	淚 滴 熊	now => [ param:smokingAllowed:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR485-0-0	接 受 保 留 的 臨 江 街 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:geo:Location == location: " 臨 江 街 " => notify
+RSR486-0-0	在 臨 江 街 中 找 到 3 家 明 星 麦 切 林 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 臨 江 街 " and param:starRating.ratingValue:Number == 3 => notify
+RSR487-0-0	找 到 昂 贵 的 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive and param:smokingAllowed:Boolean == true => notify
+RSR488-0-0	找 到 一 个 审 查 量 最 大 的 華 陰 街 號 餐 厅 。	now => ( sort param:aggregateRating.reviewCount:Number desc of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 華 陰 街 號 " ) ) [ 1 ] => notify
+RSR489-0-0	可 在 石 景 山 路 号 中 找 到 昂 贵 的 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 石 景 山 路 号 " and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive => notify
+RSR490-0-0	发 现 我 在 增 光 路 11 号 的 一 家 餐 厅 , 总 评 分 为 5。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location: " 增 光 路 11 号 " => notify
+RSR491-0-0	是 否 在 朝 阳 新 东 路 上 还 有 餐 馆 允 许 吸 烟 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 新 东 路 " and param:smokingAllowed:Boolean == true => notify
+RSR492-0-0	请 给 我 看 朝 阳 区 团 结 湖 南 路 号 市 的 所 有 晶 晶 飾 品 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 区 团 结 湖 南 路 号 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 晶 晶 飾 品 " => notify
+RSR493-0-0	显 示 我 所 看 到 的 餐 厅 照 片 , 总 评 分 为 3 或 3 以 上 。	now => [ param:image:Entity(tt:picture) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 3 ) => notify
+RSR494-0-0	王 府 井 烤 鸭 店 接 受 保 留 吗 ?	now => [ param:acceptsReservations:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 王 府 井 烤 鸭 店 " ) => notify
+RSR495-0-0	你 能 给 我 找 个 昂 贵 的 餐 馆 吗 ? 允 许 吸 烟 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:expensive and param:smokingAllowed:Boolean == true => notify
+RSR496-0-0	我 在 找 一 个 廉 价 的 尔 兰 食 用 地 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap and param:servesCuisine:String =~ " 尔 兰 " => notify
+RSR497-0-0	墨 西 哥	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:servesCuisine:String =~ " 墨 西 哥 " => notify
+RSR498-0-0	能 给 我 附 近 一 家 墨 西 哥 餐 厅 的 地 址 吗 ?	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 墨 西 哥 " ) => notify
+RSR499-0-0	附 近 有 间 俄 罗 美 食 ,	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:servesCuisine:String =~ " 俄 罗 " ) => notify
+RSR500-0-0	告 诉 我 附 近 廉 价 餐 馆 的 名 字	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap => notify
+RSR501-0-0	3 样 菜 何 时 开 放 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 3 样 菜 " ) => notify
+RSR502-0-0	哪 些 餐 厅 有 超 过 五 星 级 的 评 级 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 5 => notify
+RSR503-0-0	展 示 给 我 看 那 些 经 过 超 过 五 次 评 论 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 5 => notify
+RSR504-0-0	淚 滴 熊 电 子 邮 件 是 什 麽 ?	now => [ param:email:Entity(tt:email_address) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR505-0-0	刘 宅 食 府 的 开 工 时 间 是 多 少 ?	now => [ param:openingHours:RecurrentTimeSpecification ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " ) => notify
+RSR506-0-0	什 么 样 的 餐 厅 是 西 鬧 市 集 ?	now => [ param:servesCuisine:String ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 鬧 市 集 " ) => notify
+RSR507-0-0	刘 宅 食 府 的 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 刘 宅 食 府 " ) => notify
+RSR508-0-0	我 想 到 西 贡 妈 妈 的 地 址 。	now => [ param:geo:Location ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 西 贡 妈 妈 " ) => notify
+RSR509-0-0	3 颗 明 星 米 切 林 评 分 餐 厅 靠 近 我 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location:current_location and param:starRating.ratingValue:Number == 3 => notify
+RSR510-0-0	显 示 我 在 建 国 门 外 大 街 7 号 一 层 的 墨 西 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 建 国 门 外 大 街 7 号 一 层 " and param:servesCuisine:String =~ " 墨 西 " => notify
+RSR511-0-0	展 示 我 廉 价 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.reviewCount:Number >= 8 and param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:cheap => notify
+RSR512-0-0	程 府 宴 的 电 话 号 码 是 多 少 ?	now => [ param:telephone:Entity(tt:phone_number) ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 程 府 宴 " ) => notify
+RSR513-0-0	将 我 展 示 在 接 受 保 留 保 留 的 翠 花 胡 同 号 的 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:geo:Location == location: " 翠 花 胡 同 号 " => notify
+RSR514-0-0	查 找 位 于 香 山 买 卖 街 东 口 的 任 何 健 康 餐 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 香 山 买 卖 街 东 口 " and param:servesCuisine:String =~ " 健 康 餐 " => notify
+RSR515-0-0	将 咪 吖 咪 吖 餐 厅 设 在 朝 阳 新 东 路 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 朝 阳 新 东 路 " and param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 咪 吖 咪 吖 " => notify
+RSR516-0-0	发 现 我 找 到 一 些 价 格 中 度 的 餐 馆 其 米 切 林 星 级 评 分 是 3	now => ( @org.schema.Restaurant.Restaurant ) filter param:priceRange:Enum(cheap,moderate,expensive,luxury) == enum:moderate and param:starRating.ratingValue:Number == 3 => notify
+RSR517-0-0	寻 找 允 许 吸 烟 的 餐 馆 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:smokingAllowed:Boolean == true => notify
+RSR518-0-0	发 现 我 在 TIME_0 时 开 放 的 拉 丁 风 餐 馆 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains TIME_0 and param:servesCuisine:String =~ " 拉 丁 风 " => notify
+RSR519-0-0	哪 个 国 料 餐 馆 接 受 保 留 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:servesCuisine:String =~ " 国 料 " => notify
+RSR520-0-0	展 示 给 我 看 波 斯 风 餐 厅 , 有 3 个 米 切 林 星	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 波 斯 风 " and param:starRating.ratingValue:Number == 3 => notify
+RSR521-0-0	显 示 所 有 德 国 菜 餐 馆 , 总 评 级 超 过 3	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number >= 3 and param:servesCuisine:String =~ " 德 国 菜 " => notify
+RSR522-0-0	在 TIME_0 之 前 , 哪 家 斯 风 餐 馆 开 着 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:openingHours:RecurrentTimeSpecification contains TIME_0 and param:servesCuisine:String =~ " 斯 风 " => notify
+RSR523-0-0	告 诉 我 什 么 餐 馆 可 以 抽 烟 , 接 受 预 订	now => ( @org.schema.Restaurant.Restaurant ) filter param:acceptsReservations:Boolean == true and param:smokingAllowed:Boolean == true => notify
+RSR524-0-0	请 帮 我 找 个 能 抽 烟 的 班 牙 餐 厅	now => ( @org.schema.Restaurant.Restaurant ) filter param:servesCuisine:String =~ " 班 牙 " and param:smokingAllowed:Boolean == true => notify
+RSR525-0-0	哪 些 餐 厅 的 桂 林 路 1 號 具 有 三 星 级 米 切 林 评 分 ?	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 桂 林 路 1 號 " and param:starRating.ratingValue:Number == 3 => notify
+RSR526-0-0	请 在 西 城 区 新 文 化 街 12 号 找 到 一 家 快 餐 餐 厅 。	now => ( @org.schema.Restaurant.Restaurant ) filter param:geo:Location == location: " 西 城 区 新 文 化 街 12 号 " and param:servesCuisine:String =~ " 快 餐 " => notify
+RSR527-0-0	想 知 道 淚 滴 熊 是 否 接 受 保 留 。	now => [ param:acceptsReservations:Boolean ] of ( ( @org.schema.Restaurant.Restaurant ) filter param:id:Entity(org.schema.Restaurant:Restaurant) =~ " 淚 滴 熊 " ) => notify
+RSR528-0-0	找 到 一 家 在 香 山 一 棵 松 号 之 间 餐 厅 的 餐 厅 ,	now => ( @org.schema.Restaurant.Restaurant ) filter param:aggregateRating.ratingValue:Number == 5 and param:geo:Location == location: " 香 山 一 棵 松 号 " => notify
