@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+.idea/
+
 *train*.tsv*
 *eval*.tsv*
 *test*.tsv*
@@ -17,6 +20,21 @@ emnlp*.mk
 create_*.mk
 train_eval.mk
 paraphrase*.mk
+schema.jsonld
+books/*
+music/*
+linkedin/*
+movies/*
+restaurants/*
+hotels/*
+dlg-shared-parameter-datasets*
+shared-parameter-datasets*
+multidomain-*
+schema_data/
+schema_data_processed/
+dataset/oht/
+
+>>>>>>> a9dfb62... Update .gitignore
 
 # C extensions
 *.so
