@@ -1,0 +1,2833 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ec0ee432fe78.jpg",
+    "name": "پیتزا پرپروک (آپادانا)",
+    "telephone": "91541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "سهروردی شمالی، خیابان آپادانا (خرمشهر)، نرسیده به قنبرزاده (مصلی)، پلاک 125، پیتزا پرپروک (آپادانا)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.735517,
+      "longitude": 51.430371
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 13061,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ec0ee432fe78.jpg",
+    "name": "پیتزا پرپروک (آپادانا)",
+    "telephone": "91541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "سهروردی شمالی، خیابان آپادانا (خرمشهر)، نرسیده به قنبرزاده (مصلی)، پلاک 125، پیتزا پرپروک (آپادانا)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.735517,
+      "longitude": 51.430371
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 13061,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ef70f036d189.jpg",
+    "name": "آدرس فود هال",
+    "telephone": "91827 - 1827 - 26200847",
+    "priceRange": "$$",
+    "address": "فرشته، نیلوفر،پلاک 2، ساختمان رویال آدرس، طبقه اول، ادرس فود هال",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.787293,
+      "longitude": 51.423579
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 6820,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "پاستا",
+      "سوپ",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e298a0d93bd4.jpg",
+    "name": "عطاویچ (پونک - شبانه)",
+    "telephone": "44617382 - 44617387",
+    "priceRange": "$$",
+    "address": "پونک، بلوار میرزا بابایی، بین سردار جنگل و ستاری، پلاک 190، عطاویچ پونک",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.763099,
+      "longitude": 51.321375
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 1238,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "منوی کودک"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e298a0d93bd4.jpg",
+    "name": "عطاویچ (پونک - شبانه)",
+    "telephone": "44617382 - 44617387",
+    "priceRange": "$$",
+    "address": "پونک، بلوار میرزا بابایی، بین سردار جنگل و ستاری، پلاک 190، عطاویچ پونک",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.763099,
+      "longitude": 51.321375
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 1238,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "منوی کودک"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dd1e6b709.jpeg",
+    "name": "پیتزا پرپروک (سعادت آباد)",
+    "telephone": "1541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "سعادت آباد، سرو غربی، خیابان ریاضی بخشایش، پلاک 18، پیتزا پرپروک (سعادت آباد)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.777760634693,
+      "longitude": 51.365305771828
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 16637,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dd1e6b709.jpeg",
+    "name": "پیتزا پرپروک (سعادت آباد)",
+    "telephone": "1541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "سعادت آباد، سرو غربی، خیابان ریاضی بخشایش، پلاک 18، پیتزا پرپروک (سعادت آباد)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.777760634693,
+      "longitude": 51.365305771828
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 16637,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/59b7aafc39fa8.jpg",
+    "name": "پیتزا علاالدین (اختیاریه)",
+    "telephone": "2703 - 92703 - 22561193 -22772077",
+    "priceRange": "$$",
+    "address": "دولت، خیابان اختیاریه جنوبی، پلاک 37، فست فود علاالدین (دولت)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.779298422701,
+      "longitude": 51.464231014252
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 4647,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "پاستا"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/59b7aafc39fa8.jpg",
+    "name": "پیتزا علاالدین (اختیاریه)",
+    "telephone": "2703 - 92703 - 22561193 -22772077",
+    "priceRange": "$$",
+    "address": "دولت، خیابان اختیاریه جنوبی، پلاک 37، فست فود علاالدین (دولت)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.779298422701,
+      "longitude": 51.464231014252
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 4647,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "پاستا"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dce59004f.jpeg",
+    "name": "پیتزا پرپروک (قیطریه)",
+    "telephone": "1541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "قیطریه، روبروی پارک قیطریه، درب شرقی، نبش کوچه شب افروز، پلاک 97، طبقه همکف، پیتزا پرپروک (قیطریه)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.794619272658,
+      "longitude": 51.449927580357
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 11830,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dce59004f.jpeg",
+    "name": "پیتزا پرپروک (قیطریه)",
+    "telephone": "1541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "قیطریه، روبروی پارک قیطریه، درب شرقی، نبش کوچه شب افروز، پلاک 97، طبقه همکف، پیتزا پرپروک (قیطریه)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.794619272658,
+      "longitude": 51.449927580357
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 11830,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e425b0493bab.jpg",
+    "name": "شیلا (میدان انقلاب)",
+    "telephone": "66465793",
+    "priceRange": "$$",
+    "address": "میدان انقلاب، ضلع جنوی شرقی، شیلا (میدان انقلاب)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.700577032279,
+      "longitude": 51.39146914876
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 4083,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e425b0493bab.jpg",
+    "name": "شیلا (میدان انقلاب)",
+    "telephone": "66465793",
+    "priceRange": "$$",
+    "address": "میدان انقلاب، ضلع جنوی شرقی، شیلا (میدان انقلاب)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.700577032279,
+      "longitude": 51.39146914876
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 4083,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dcea1fe96.jpeg",
+    "name": "پیتزا پرپروک (پاسداران)",
+    "telephone": "91541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "پاسداران، تقاطع داوود اسلامی و گلستان 5، پلاک 60، پیتزا پرپروک (پاسداران)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.770560399004,
+      "longitude": 51.467211894512
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 11395,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dcea1fe96.jpeg",
+    "name": "پیتزا پرپروک (پاسداران)",
+    "telephone": "91541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "پاسداران، تقاطع داوود اسلامی و گلستان 5، پلاک 60، پیتزا پرپروک (پاسداران)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.770560399004,
+      "longitude": 51.467211894512
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 11395,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dceed5e7e.jpeg",
+    "name": "پیتزا پرپروک (آریاشهر)",
+    "telephone": "1541 - 91541 - 22363224",
+    "priceRange": "$$",
+    "address": "ستارخان، خیابان خسرو شمالی، روبروی شهروند صادقیه، پلاک 12، پیتزا پرپروک (آریاشهر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.722,
+      "longitude": 51.347
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 10007,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dceed5e7e.jpeg",
+    "name": "پیتزا پرپروک (آریاشهر)",
+    "telephone": "1541 - 91541 - 22363224",
+    "priceRange": "$$",
+    "address": "ستارخان، خیابان خسرو شمالی، روبروی شهروند صادقیه، پلاک 12، پیتزا پرپروک (آریاشهر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.722,
+      "longitude": 51.347
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 10007,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5a93dd242fcab.jpg",
+    "name": "باماهاس (تجریش)",
+    "telephone": "26855126 - 09125573138 - 22710085",
+    "priceRange": "$$",
+    "address": "تجریش، دربندی، پلاک 122، باماهاس (تجریش)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.805144123885,
+      "longitude": 51.427554488182
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 1816,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5a93dd242fcab.jpg",
+    "name": "باماهاس (تجریش)",
+    "telephone": "26855126 - 09125573138 - 22710085",
+    "priceRange": "$$",
+    "address": "تجریش، دربندی، پلاک 122، باماهاس (تجریش)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.805144123885,
+      "longitude": 51.427554488182
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 1816,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e425b1eb927a.jpg",
+    "name": "شیلا (گیشا)",
+    "telephone": "88255296 - 88255702",
+    "priceRange": "$$",
+    "address": "گیشا، بین خیابان 7 و 9، پلاک 114، شیلا (گیشا)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.729,
+      "longitude": 51.379
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 5372,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "منوی کودک"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e425b1eb927a.jpg",
+    "name": "شیلا (گیشا)",
+    "telephone": "88255296 - 88255702",
+    "priceRange": "$$",
+    "address": "گیشا، بین خیابان 7 و 9، پلاک 114، شیلا (گیشا)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.729,
+      "longitude": 51.379
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 5372,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "منوی کودک"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5caf211195c12.jpeg",
+    "name": "رستوران ریحون",
+    "telephone": "22037963 - 22031000",
+    "priceRange": "$$",
+    "address": "بلوار آفریقا، کاج آبادی (نادر)، شماره 18، رستوران ریحون",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.778368014297,
+      "longitude": 51.421276253357
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 1618,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "سوپ"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/593cee7005ea8.png",
+    "name": "رستوران شاندیز (جردن)",
+    "telephone": "22043755 - 75313 - 22050082",
+    "priceRange": "$$",
+    "address": "بلوار آفریقا، بلوار صبا، پلاک 24، رستوران شاندیز (جردن)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.771265278087,
+      "longitude": 51.422629952431
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.5,
+      "reviewCount": 5426,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/59986d5961d72.jpg",
+    "name": "پیتزا عطا",
+    "telephone": "03133386727",
+    "priceRange": "$$",
+    "address": "خیابان کاوه، ضلع جنوب غربی پل 25 آبان، به سمت میدان شهدا ، پیتزا عطا",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.678345421929,
+      "longitude": 51.671721050262
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 15494,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/59b75f071b766.jpg",
+    "name": "خانه کنـتاکی (ملت)",
+    "telephone": "03136267875 - 03136294424",
+    "priceRange": "$$",
+    "address": "بلوار ملت، حد فاصل پل آذر و هتل پل، خانه کنتاکی (ملت)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.641463,
+      "longitude": 51.662722
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 3209,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/59b75f071b766.jpg",
+    "name": "خانه کنـتاکی (ملت)",
+    "telephone": "03136267875 - 03136294424",
+    "priceRange": "$$",
+    "address": "بلوار ملت، حد فاصل پل آذر و هتل پل، خانه کنتاکی (ملت)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.641463,
+      "longitude": 51.662722
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 3209,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5a5e09c305a21.jpg",
+    "name": "فست فود پن پن سه سوت (میر)",
+    "telephone": "03136626488 - 09922879542",
+    "priceRange": "$$",
+    "address": "خیابان میر، حد فاصل پل میر و چهار راه آب 250، فست فود پن پن سه سوت (میر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.634440456596,
+      "longitude": 51.677563190542
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.6,
+      "reviewCount": 2513,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5a5e09c305a21.jpg",
+    "name": "فست فود پن پن سه سوت (میر)",
+    "telephone": "03136626488 - 09922879542",
+    "priceRange": "$$",
+    "address": "خیابان میر، حد فاصل پل میر و چهار راه آب 250، فست فود پن پن سه سوت (میر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.634440456596,
+      "longitude": 51.677563190542
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.6,
+      "reviewCount": 2513,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/581ee92515d2a.jpg",
+    "name": "پیتزا پیتزا پارسیان (خانه اصفهان)",
+    "telephone": "03133291771 - 03133292266",
+    "priceRange": "$$",
+    "address": "خانه اصفهان، فلکه نگهبانی، پیتزا پیتزا پارسیان (خانه اصفهان)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.703013,
+      "longitude": 51.62724
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 1502,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/581ee92515d2a.jpg",
+    "name": "پیتزا پیتزا پارسیان (خانه اصفهان)",
+    "telephone": "03133291771 - 03133292266",
+    "priceRange": "$$",
+    "address": "خانه اصفهان، فلکه نگهبانی، پیتزا پیتزا پارسیان (خانه اصفهان)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.703013,
+      "longitude": 51.62724
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 1502,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5b128fe779ad2.jpg",
+    "name": "فست فود سارا (جی)",
+    "telephone": "03132260034",
+    "priceRange": "$$",
+    "address": "خیابان جی ، بعد از تقاطع اول، فست فود سارا (جی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.662135663019,
+      "longitude": 51.707002247025
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 10326,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "پاستا",
+      "منوی کودک",
+      "استیک",
+      "کافی شاپ",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5b128fe779ad2.jpg",
+    "name": "فست فود سارا (جی)",
+    "telephone": "03132260034",
+    "priceRange": "$$",
+    "address": "خیابان جی ، بعد از تقاطع اول، فست فود سارا (جی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.662135663019,
+      "longitude": 51.707002247025
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 10326,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "پاستا",
+      "منوی کودک",
+      "استیک",
+      "کافی شاپ",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5eac8ea783430.jpg",
+    "name": "کافه رستوران سیلو (بیرون بر)",
+    "telephone": "03132649830",
+    "priceRange": "$$",
+    "address": "خیابان سجاد، روبه روی بن بست شکوفه، کافه رستوران سیلو",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.633431,
+      "longitude": 51.693785
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.5,
+      "reviewCount": 193,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d63ef76e56ec.jpg",
+    "name": "پیتزا برگر شباهنگ (شبانه)",
+    "telephone": "03136263476",
+    "priceRange": "$$",
+    "address": "خیابان ارتش، بن بست 41، پیتزا برگر شباهنگ (شبانه)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.623011,
+      "longitude": 51.647971
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.5,
+      "reviewCount": 13,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d63ef76e56ec.jpg",
+    "name": "پیتزا برگر شباهنگ (شبانه)",
+    "telephone": "03136263476",
+    "priceRange": "$$",
+    "address": "خیابان ارتش، بن بست 41، پیتزا برگر شباهنگ (شبانه)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.623011,
+      "longitude": 51.647971
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.5,
+      "reviewCount": 13,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5dee54998ae16.jpg",
+    "name": "مستر فلافل",
+    "telephone": "03136632763",
+    "priceRange": "$$",
+    "address": "خیابان مصلی، قبل از چهارراه دهش، جنب کوچه 16، مستر فلافل",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.63020206724,
+      "longitude": 51.67783677578
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 679,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c78faac15c56.jpg",
+    "name": "پیتزا پانیذ (مرکزی)",
+    "telephone": "03134500704",
+    "priceRange": "$$",
+    "address": "میدان ملک شهر، ابتدای رباط دوم، مقابل پارک گل محمدی، پیتزا پانیذ (مرکزی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.713767212748,
+      "longitude": 51.661330461502
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.4,
+      "reviewCount": 6086,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c78faac15c56.jpg",
+    "name": "پیتزا پانیذ (مرکزی)",
+    "telephone": "03134500704",
+    "priceRange": "$$",
+    "address": "میدان ملک شهر، ابتدای رباط دوم، مقابل پارک گل محمدی، پیتزا پانیذ (مرکزی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.713767212748,
+      "longitude": 51.661330461502
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.4,
+      "reviewCount": 6086,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d20998da1ba3.jpg",
+    "name": "دنیای فست فود",
+    "telephone": "03136261293",
+    "priceRange": "$$",
+    "address": "خیابان حکیم نظامی، روبروی حسین آباد، دنیای فست فود",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.62594766428,
+      "longitude": 51.652591824532
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 172,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "ساندویچ",
+      "فست فود",
+      "پاستا"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d7ce75d48292.jpg",
+    "name": "پیتزا ذغالی سایروس",
+    "telephone": "03136813631",
+    "priceRange": "$$",
+    "address": "بهارستان، بلوار بهشت، خیابان ولیعصر جنوبی، پیتزا ذغالی سایروس",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.47511311557,
+      "longitude": 51.778568476439
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 1662,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "پیتزا",
+      "ترکیه ای",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d7ce75d48292.jpg",
+    "name": "پیتزا ذغالی سایروس",
+    "telephone": "03136813631",
+    "priceRange": "$$",
+    "address": "بهارستان، بلوار بهشت، خیابان ولیعصر جنوبی، پیتزا ذغالی سایروس",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.47511311557,
+      "longitude": 51.778568476439
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 1662,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "پیتزا",
+      "ترکیه ای",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c8bc4f99e733.jpg",
+    "name": "فست فود کارن (آپادانا) شبانه",
+    "telephone": "03136411348",
+    "priceRange": "$$",
+    "address": "خیابان سجاد، جنب چهار راه آپادانا، روبروی ایستگاه بی آر تی، فست فود کارن (آپادانا)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.633303443862,
+      "longitude": 51.693077087402
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.6,
+      "reviewCount": 78,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c8bc4f99e733.jpg",
+    "name": "فست فود کارن (آپادانا) شبانه",
+    "telephone": "03136411348",
+    "priceRange": "$$",
+    "address": "خیابان سجاد، جنب چهار راه آپادانا، روبروی ایستگاه بی آر تی، فست فود کارن (آپادانا)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.633303443862,
+      "longitude": 51.693077087402
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.6,
+      "reviewCount": 78,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c4465cde1edf.png",
+    "name": "شبدیز (قدس)",
+    "telephone": "05138666666 - 05135012222",
+    "priceRange": "$$",
+    "address": "خیام 11، نبش قدس 15، شبدیز (قدس)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.30721,
+      "longitude": 59.562015
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.4,
+      "reviewCount": 13368,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c4465cde1edf.png",
+    "name": "شبدیز (قدس)",
+    "telephone": "05138666666 - 05135012222",
+    "priceRange": "$$",
+    "address": "خیام 11، نبش قدس 15، شبدیز (قدس)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.30721,
+      "longitude": 59.562015
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.4,
+      "reviewCount": 13368,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c4465e401cd6.png",
+    "name": "شبدیز (هفت تیر)",
+    "telephone": "05138666666 - 05135012222",
+    "priceRange": "$$",
+    "address": "وکیل آباد، نبش هفت تیر 15، شبدیز (هفت تیر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.319384,
+      "longitude": 59.493394
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 15280,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c4465e401cd6.png",
+    "name": "شبدیز (هفت تیر)",
+    "telephone": "05138666666 - 05135012222",
+    "priceRange": "$$",
+    "address": "وکیل آباد، نبش هفت تیر 15، شبدیز (هفت تیر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.319384,
+      "longitude": 59.493394
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 15280,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5dfd1ebad8bbc.jpeg",
+    "name": "فوکاویچ",
+    "telephone": "05137321111 - 05137325555",
+    "priceRange": "$$",
+    "address": "خیابان گاز، بین گاز 7 و 9، فوکاویچ",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.316999,
+      "longitude": 59.627259
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 973,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5edbbb741653a.png",
+    "name": "ویل برگر",
+    "telephone": "05137666663",
+    "priceRange": "$$",
+    "address": "سجاد شهر، خیام 10، ویل برگر",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.311459,
+      "longitude": 59.554964
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 158,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5f3a0c97160c7.jpg",
+    "name": "پيتزا پيتزا (هفتم تیر)",
+    "telephone": "05138660966",
+    "priceRange": "$$",
+    "address": "بين هفتم تير 28 و 30، پيتزا پيتزا (هفتم تیر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.317096,
+      "longitude": 59.492666
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 0.0,
+      "reviewCount": 5,
+      "worstRating": 1
+    },
+    "servesCuisine": []
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5f3a0c97160c7.jpg",
+    "name": "پيتزا پيتزا (هفتم تیر)",
+    "telephone": "05138660966",
+    "priceRange": "$$",
+    "address": "بين هفتم تير 28 و 30، پيتزا پيتزا (هفتم تیر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.317096,
+      "longitude": 59.492666
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 0.0,
+      "reviewCount": 5,
+      "worstRating": 1
+    },
+    "servesCuisine": []
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5cea7f390b19a.jpg",
+    "name": "کباب و حلیم و جگر قائم",
+    "telephone": "05133865491 - 05133861925",
+    "priceRange": "$$",
+    "address": "سیدی، بلوار قائم، نبش قائم 3، کباب و حلیم و جگر قائم",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.252250809674,
+      "longitude": 59.599818189854
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.9,
+      "reviewCount": 1406,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "سوپ",
+      "بریان",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ce9323f6d762.jpg",
+    "name": "فست فود آقای کره",
+    "telephone": "05138336001 - 05138921535",
+    "priceRange": "$$",
+    "address": "بین پیروزی 70 و 72، فست فود آقای کره",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.325913355113,
+      "longitude": 59.480103850365
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 1942,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e18414588f76.jpg",
+    "name": "ساندویچی روژان",
+    "telephone": "05138934244 - 05138934240",
+    "priceRange": "$$",
+    "address": "بلوار دانش آموز، نبش دانش آموز 22، ساندویچی روژان",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.334339,
+      "longitude": 59.512073
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 225,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "صبحانه"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c3f37e660c1c.jpg",
+    "name": "وااااای سیب زمینی",
+    "telephone": "05136025866",
+    "priceRange": "$$",
+    "address": "نبش چهار راه معلم، تقاطع سید رضی، فست فود وااااای سیب زمینی",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.331091,
+      "longitude": 59.520405
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.6,
+      "reviewCount": 5761,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سنتی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d62d80b6f9ba.jpg",
+    "name": "فست فود فرهنگ",
+    "telephone": "05138926525",
+    "priceRange": "$$",
+    "address": "بین دانشجو 19، چهار راه دانشجو، فست فود فرهنگ",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.335006100943,
+      "longitude": 59.505386352539
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.7,
+      "reviewCount": 1432,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c4c646ae97fb.jpg",
+    "name": "فست فود هرم طلایی",
+    "telephone": "05136050181 - 05136050182",
+    "priceRange": "$$",
+    "address": "سید رضی، نبش سید رضی 28، فست فود هرم طلایی",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.332369957677,
+      "longitude": 59.520305257459
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 778,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c657782a810f.jpg",
+    "name": "فست فود خوشمزه",
+    "telephone": "05138451516 - 05138425617",
+    "priceRange": "$$",
+    "address": "بین راهنمایی 16 و 18، فست فود خوشمزه",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.302813702071,
+      "longitude": 59.570724964142
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.9,
+      "reviewCount": 1410,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "کباب ترکی",
+      "صبحانه"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c6259a06e534.jpg",
+    "name": "لاویا (ستارخان)",
+    "telephone": "07136281020 - 09170058002",
+    "priceRange": "$$",
+    "address": "بلوار ستارخان، مجتمع بهاران، لاویا (ستارخان)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.629666630545,
+      "longitude": 52.496784976051
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 4174,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c6259a06e534.jpg",
+    "name": "لاویا (ستارخان)",
+    "telephone": "07136281020 - 09170058002",
+    "priceRange": "$$",
+    "address": "بلوار ستارخان، مجتمع بهاران، لاویا (ستارخان)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.629666630545,
+      "longitude": 52.496784976051
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 4174,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ce1990a4a84f.jpg",
+    "name": "لاویا (خاکشناسی)",
+    "telephone": "07132272200",
+    "priceRange": "$$",
+    "address": "خیابان خاکشناسی، روبروی کوچه 11،لاویا (خاکشناسی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.6348392258,
+      "longitude": 52.530939803052
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 3496,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ce1990a4a84f.jpg",
+    "name": "لاویا (خاکشناسی)",
+    "telephone": "07132272200",
+    "priceRange": "$$",
+    "address": "خیابان خاکشناسی، روبروی کوچه 11،لاویا (خاکشناسی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.6348392258,
+      "longitude": 52.530939803052
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 3496,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5f451388f2d87.jpg",
+    "name": "لاویا (معالی آباد - شبانه)",
+    "telephone": "0716253208 -07136361995 - 07136369515",
+    "priceRange": "$$",
+    "address": "معالی آباد، ورودی اول گلدشت 1، لاویا (معالی آباد شبانه)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.686785,
+      "longitude": 52.465253
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.6,
+      "reviewCount": 50,
+      "worstRating": 1
+    },
+    "servesCuisine": []
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5f451388f2d87.jpg",
+    "name": "لاویا (معالی آباد - شبانه)",
+    "telephone": "0716253208 -07136361995 - 07136369515",
+    "priceRange": "$$",
+    "address": "معالی آباد، ورودی اول گلدشت 1، لاویا (معالی آباد شبانه)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.686785,
+      "longitude": 52.465253
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.6,
+      "reviewCount": 50,
+      "worstRating": 1
+    },
+    "servesCuisine": []
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d63e8ed2ee54.jpg",
+    "name": "لاویا (ذوالانوار)",
+    "telephone": "07132337207 - 07132337205",
+    "priceRange": "$$",
+    "address": "30 متری سینما سعدی، خیابان ذوالانوار شرقی، نبش کوچه 14، لاویا (ذوالانوار)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.619286,
+      "longitude": 52.523028
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 3283,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d63e8ed2ee54.jpg",
+    "name": "لاویا (ذوالانوار)",
+    "telephone": "07132337207 - 07132337205",
+    "priceRange": "$$",
+    "address": "30 متری سینما سعدی، خیابان ذوالانوار شرقی، نبش کوچه 14، لاویا (ذوالانوار)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.619286,
+      "longitude": 52.523028
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 3283,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d7cb7bf8b03b.png",
+    "name": "فست فود رافائل 4",
+    "telephone": "07191011062",
+    "priceRange": "$$",
+    "address": "معالی اباد، کوی وحدت، روبروی مجتمع نگین، فست فود رافائل 4",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.683207009549,
+      "longitude": 52.450261191502
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 1797,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "پاستا",
+      "کباب ترکی",
+      "سوپ",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c0d5e1721ceb.jpg",
+    "name": "پامچال (معالی آباد)",
+    "telephone": "07136246335 - 07136256215",
+    "priceRange": "$$",
+    "address": "معالی آباد، جنب مسجد آیت آلله دستغیب، پامچال (معالی آباد)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.686189,
+      "longitude": 52.472182
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.8,
+      "reviewCount": 1015,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c0d5e1721ceb.jpg",
+    "name": "پامچال (معالی آباد)",
+    "telephone": "07136246335 - 07136256215",
+    "priceRange": "$$",
+    "address": "معالی آباد، جنب مسجد آیت آلله دستغیب، پامچال (معالی آباد)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.686189,
+      "longitude": 52.472182
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.8,
+      "reviewCount": 1015,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c897bc8c585e.jpeg",
+    "name": "آترا",
+    "telephone": "07138326162",
+    "priceRange": "$$",
+    "address": "زرهی، بلوار پاسداران، خیابان شهید آقایی، روبروی حسینیه سیدالشهدا، آترا",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.62012055657,
+      "longitude": 52.476453781128
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 1630,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5eb257c8f0766.jpg",
+    "name": "ایران برگر (کسایی)",
+    "telephone": "07136344030",
+    "priceRange": "$$",
+    "address": "بلوار کسایی، انتهای دوستان، ایران برگر (کسایی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.677464,
+      "longitude": 52.46433
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 1298,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5eb257c8f0766.jpg",
+    "name": "ایران برگر (کسایی)",
+    "telephone": "07136344030",
+    "priceRange": "$$",
+    "address": "بلوار کسایی، انتهای دوستان، ایران برگر (کسایی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.677464,
+      "longitude": 52.46433
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 1298,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c62596780ced.jpg",
+    "name": "لاویا (محلاتی)",
+    "telephone": "09170058004 - 07138434896",
+    "priceRange": "$$",
+    "address": "خیابان قدوسی غربی، خیابان محلاتی جنوبی، نبش کوچه 1، لاویا (محلاتی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.636720905371,
+      "longitude": 52.473090291023
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 3232,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c62596780ced.jpg",
+    "name": "لاویا (محلاتی)",
+    "telephone": "09170058004 - 07138434896",
+    "priceRange": "$$",
+    "address": "خیابان قدوسی غربی، خیابان محلاتی جنوبی، نبش کوچه 1، لاویا (محلاتی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.636720905371,
+      "longitude": 52.473090291023
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 3232,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5cc7da4af0279.jpg",
+    "name": "پیتزا پاییزان",
+    "telephone": "09173151252",
+    "priceRange": "$$",
+    "address": "فلکه ابوالکلام، نبش کوچه 11، پیتزا پاییزان",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.632389082945,
+      "longitude": 52.55476025448
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.4,
+      "reviewCount": 137,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "کباب ترکی",
+      "سالاد",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c0b9cf2d014b.jpg",
+    "name": "نمک",
+    "telephone": "07136483560 - 07136484346",
+    "priceRange": "$$",
+    "address": "عفیف آباد، نبش کوچه 13، نمک",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.625963659858,
+      "longitude": 52.50343688155
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 1080,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فرنگی",
+      "فست فود",
+      "سوخاری",
+      "پاستا",
+      "استیک",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d7c92f4c7ea3.png",
+    "name": "فست فود رافائل 3",
+    "telephone": "07136311442",
+    "priceRange": "$$",
+    "address": "قدوسی غربی، خیابان محلاتی، نبش کوچه 2، فست فود رافائل 3",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.635202,
+      "longitude": 52.469782
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 1031,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5b60a9bd6893a.jpg",
+    "name": "فست فود کاچی",
+    "telephone": "09149238141 - 04133272889",
+    "priceRange": "$$",
+    "address": "جاده ال گلی ،به سمت الهی پرست، جنب تالار آذر سام، فست فود کاچی",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.049472,
+      "longitude": 46.349489
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 1646,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "پاستا",
+      "استیک",
+      "سوپ",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5b60a9bd6893a.jpg",
+    "name": "فست فود کاچی",
+    "telephone": "09149238141 - 04133272889",
+    "priceRange": "$$",
+    "address": "جاده ال گلی ،به سمت الهی پرست، جنب تالار آذر سام، فست فود کاچی",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.049472,
+      "longitude": 46.349489
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 1646,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایتالیایی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "پاستا",
+      "استیک",
+      "سوپ",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5cbc241fb5b70.jpg",
+    "name": "فست فود میکائیلیان",
+    "telephone": "04135535220",
+    "priceRange": "$$",
+    "address": "ابتدای شریعتی جنوبی، رو به روی مغازه های سنگین، کوچه برزین، فست فود میکائیلیان",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.069381,
+      "longitude": 46.284499
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.5,
+      "reviewCount": 2292,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "کباب ترکی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c4cbe9c4af2f.jpg",
+    "name": "پیتزا 2000 (ائل گلی)",
+    "telephone": "04133262000",
+    "priceRange": "$$",
+    "address": "ائل گلی، نرسیده به فلکه گلشهر، پیتزا 2000 (ائل گلی)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.038343,
+      "longitude": 46.356806
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 1606,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سوخاری",
+      "پاستا",
+      "منوی کودک",
+      "سوپ",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e0aece575a7c.jpg",
+    "name": "سالاد بار سالاد نو",
+    "telephone": "04133258232",
+    "priceRange": "$$",
+    "address": "چایکنار، خیابان رضانژاد شمالی، جنب دمشقیه، سالاد بار سالاد نو",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.073386,
+      "longitude": 46.31547
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 373,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "فست فود",
+      "سوپ",
+      "سالاد",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e0aece575a7c.jpg",
+    "name": "سالاد بار سالاد نو",
+    "telephone": "04133258232",
+    "priceRange": "$$",
+    "address": "چایکنار، خیابان رضانژاد شمالی، جنب دمشقیه، سالاد بار سالاد نو",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.073386,
+      "longitude": 46.31547
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 373,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "فست فود",
+      "سوپ",
+      "سالاد",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e9f4877aec0f.jpg",
+    "name": "فست فود شاندیز",
+    "telephone": "04136686858",
+    "priceRange": "$$",
+    "address": "شهرک باغمیشه، خیابان شهریار، روبروی پارک مولانا، فست فود شاندیز",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.0664123,
+      "longitude": 46.3908674
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.6,
+      "reviewCount": 108,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5c5034c74a40b.jpg",
+    "name": "رستوران 2000 (ولیعصر)",
+    "telephone": "04133321000 - 04133323000",
+    "priceRange": "$$",
+    "address": "خیابان استانداری، رستوران 2000 (ولیعصر)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.055453,
+      "longitude": 46.373659
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 2948,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "ایتالیایی",
+      "پیتزا",
+      "ساندویچ",
+      "سوخاری",
+      "سوپ"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d191e177b870.jpg",
+    "name": "بناب کبابی و چلو کبابی امیر",
+    "telephone": "04133814978 - 09100168938",
+    "priceRange": "$$",
+    "address": "خیابان ائل گلی، خیابان سهند، نبش کوی دانش، بناب کبابی و چلو کبابی امیر",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.028956,
+      "longitude": 46.358399
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.9,
+      "reviewCount": 692,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "تهیه غذا و کترینگ",
+      "دیزی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dcdbb1292.jpeg",
+    "name": "پیتزا پرپروک (میلاد - کرج)",
+    "telephone": "1541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "عظیمیه، بلوار طالقانی شمالی، بعد از پل آزادگان، نبش خیابان حسینی، برج میلاد،طبقه 2، پیتزا پرپروک (میلاد - کرج)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.83223755456,
+      "longitude": 50.999615483825
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 4253,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dcdbb1292.jpeg",
+    "name": "پیتزا پرپروک (میلاد - کرج)",
+    "telephone": "1541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "عظیمیه، بلوار طالقانی شمالی، بعد از پل آزادگان، نبش خیابان حسینی، برج میلاد،طبقه 2، پیتزا پرپروک (میلاد - کرج)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.83223755456,
+      "longitude": 50.999615483825
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.2,
+      "reviewCount": 4253,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dcd6948ef.jpeg",
+    "name": "پیتزا پرپروک (مهرشهر - کرج)",
+    "telephone": "91541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "مهرشهر، بلوار شهرداری، چهارباندی ،فاز 3، نبش خبابان 307، پلاک 298 ، جنب بانک شهر ، پیتزا پرپروک (مهرشهر - کرج)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.793634142717,
+      "longitude": 50.89090044192
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 2707,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ea1dcd6948ef.jpeg",
+    "name": "پیتزا پرپروک (مهرشهر - کرج)",
+    "telephone": "91541 - 22363224 - 22378624",
+    "priceRange": "$$",
+    "address": "مهرشهر، بلوار شهرداری، چهارباندی ،فاز 3، نبش خبابان 307، پلاک 298 ، جنب بانک شهر ، پیتزا پرپروک (مهرشهر - کرج)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.793634142717,
+      "longitude": 50.89090044192
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.3,
+      "reviewCount": 2707,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "مکزیکی",
+      "سوخاری",
+      "صبحانه",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5dcc0effc2455.jpg",
+    "name": "فست فود جیمبوویچ",
+    "telephone": "09213343537",
+    "priceRange": "$$",
+    "address": "بلوار مطهری، زیر پل روحانی، به سمت میدان جمهوری، جنب آب اناری، فست فود جیمبوویچ",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.840742,
+      "longitude": 50.981455
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.0,
+      "reviewCount": 248,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "پاستا",
+      "سالاد",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5f201e229ab48.jpg",
+    "name": "عطاویچ (فردیس)",
+    "telephone": "02636504513 - 02636504527",
+    "priceRange": "$$",
+    "address": "فردیس، بین فلکه اول و دوم، روبروی بانک ملی و سرمایه، عطاویچ (فردیس)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.729949,
+      "longitude": 50.989703
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.6,
+      "reviewCount": 171,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5f201e229ab48.jpg",
+    "name": "عطاویچ (فردیس)",
+    "telephone": "02636504513 - 02636504527",
+    "priceRange": "$$",
+    "address": "فردیس، بین فلکه اول و دوم، روبروی بانک ملی و سرمایه، عطاویچ (فردیس)",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.729949,
+      "longitude": 50.989703
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.6,
+      "reviewCount": 171,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "سالاد"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5e958c37eac88.jpg",
+    "name": "فست فود بمـب سیمبا",
+    "telephone": "65191916",
+    "priceRange": "$$",
+    "address": "مارلیک، میدان گلها، خیابان پرنیان، روبه روی پارک، فست فود بمب سیمبا",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.696789,
+      "longitude": 50.970249
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.9,
+      "reviewCount": 228,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d9860e31d407.jpg",
+    "name": "پیتزا سیلوا",
+    "telephone": "02636514718",
+    "priceRange": "$$",
+    "address": "کانال غربی، چهارراه قریشی، به سمت سه راه دهکده، روبروی آموزشگاه رانندگی، پیتزا سیلوا",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.723254,
+      "longitude": 50.979996
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 356,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d9860e31d407.jpg",
+    "name": "پیتزا سیلوا",
+    "telephone": "02636514718",
+    "priceRange": "$$",
+    "address": "کانال غربی، چهارراه قریشی، به سمت سه راه دهکده، روبروی آموزشگاه رانندگی، پیتزا سیلوا",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.723254,
+      "longitude": 50.979996
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 4.1,
+      "reviewCount": 356,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ایرانی",
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "سوخاری"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d2c8b858219c.jpg",
+    "name": "فست فود کاکا سیاه",
+    "telephone": "02634704496",
+    "priceRange": "$$",
+    "address": "کمالشهر، میدان بهشتی، بعد از کارواش، فست فود کاکا سیاه",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.868351708468,
+      "longitude": 50.865626335144
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.7,
+      "reviewCount": 156,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "کباب ترکی",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5d2c8b858219c.jpg",
+    "name": "فست فود کاکا سیاه",
+    "telephone": "02634704496",
+    "priceRange": "$$",
+    "address": "کمالشهر، میدان بهشتی، بعد از کارواش، فست فود کاکا سیاه",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.868351708468,
+      "longitude": 50.865626335144
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 3.7,
+      "reviewCount": 156,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود",
+      "کباب ترکی",
+      "ساندویچ ایرانی"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ef6e45b997d4.png",
+    "name": "دی برگر",
+    "telephone": "02634441585",
+    "priceRange": "$$",
+    "address": "گوهردشت، خیابان یکم غربی، پلاک 20، جنب داروخانه، دی برگر",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.844581,
+      "longitude": 50.971104
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 2.5,
+      "reviewCount": 63,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "پیتزا",
+      "ساندویچ",
+      "برگر",
+      "فست فود"
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "image": "https://static.snapp-food.com/media/cache/vendor_logo/uploads/images/vendors/logos/5ee5b38ab35cd.jpg",
+    "name": "فست فود پاتوق",
+    "telephone": "09101410504",
+    "priceRange": "$$",
+    "address": "بلوار باغستان، بوستان گل نرگس، غرفه یک بازارچه غذا، فست فود پاتوق",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.858787,
+      "longitude": 50.960583
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": 0.0,
+      "reviewCount": 3,
+      "worstRating": 1
+    },
+    "servesCuisine": [
+      "ساندویچ",
+      "فست فود",
+      "سوخاری"
+    ]
+  }
+]

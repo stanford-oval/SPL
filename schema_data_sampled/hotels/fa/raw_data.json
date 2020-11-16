@@ -1,0 +1,3211 @@
+[
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.2",
+      "reviewCount": "1754"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آزادی تهران",
+    "image": "https://hotelyar.com/pic/512small.jpg",
+    "description": "هتل آزادی تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.789947,51.389841",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.789947",
+      "longitude": "51.389841"
+    },
+    "url": "http:https://hotelyar.com/hotel/512/هتل-آزادی-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بزرگراه شهید چمران - تقاطع اوین - هتل آزادی تهران",
+      "addressLocality": "تهران - بزرگراه شهید چمران - تقاطع اوین - هتل آزادی تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.2",
+      "reviewCount": "1296"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اسپیناس پالاس تهران",
+    "image": "https://hotelyar.com/pic/1150small.jpg",
+    "description": "هتل اسپیناس پالاس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.792954,51.355962",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.792954",
+      "longitude": "51.355962"
+    },
+    "url": "http:https://hotelyar.com/hotel/1150/هتل-اسپیناس-پالاس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بزرگراه یادگار امام - سعادت آباد - بلوار پیام – میدان بهرود - خیابان عابدی -  کوچه ۳۳ - هتل اسپیناس پالاس تهران",
+      "addressLocality": "تهران - بزرگراه یادگار امام - سعادت آباد - بلوار پیام – میدان بهرود - خیابان عابدی -  کوچه ۳۳ - هتل اسپیناس پالاس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "3707"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل استقلال تهران",
+    "image": "https://hotelyar.com/pic/84small.jpg",
+    "description": "هتل استقلال تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.789804,51.413027",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.789804",
+      "longitude": "51.413027"
+    },
+    "url": "http:https://hotelyar.com/hotel/84/هتل-استقلال-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان ولیعصر - تقاطع بزرگراه شهید چمران - هتل استقلال تهران",
+      "addressLocality": "تهران - خیابان ولیعصر - تقاطع بزرگراه شهید چمران - هتل استقلال تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "707"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اسپیناس بلوار تهران",
+    "image": "https://hotelyar.com/pic/486small.jpg",
+    "description": "هتل اسپیناس بلوار تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.709479,51.40127",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.709479",
+      "longitude": "51.40127"
+    },
+    "url": "http:https://hotelyar.com/hotel/486/هتل-اسپیناس-بلوار-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بلوار کشاورز - بین خیابان فلسطین و نادری - پلاک 126 - هتل اسپیناس بلوار تهران",
+      "addressLocality": "تهران - بلوار کشاورز - بین خیابان فلسطین و نادری - پلاک 126 - هتل اسپیناس بلوار تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.3",
+      "reviewCount": "17"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل حافظ تهران",
+    "image": "https://hotelyar.com/pic/1139small.jpg",
+    "description": "هتل حافظ تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.690863,51.418886",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.690863",
+      "longitude": "51.418886"
+    },
+    "url": "http:https://hotelyar.com/hotel/1139/هتل-حافظ-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان امام خمینی، فردوسی جنوبی، کوچه ی بانک ، شماره 18 - هتل حافظ تهران",
+      "addressLocality": "تهران - میدان امام خمینی، فردوسی جنوبی، کوچه ی بانک ، شماره 18 - هتل حافظ تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آزادی خیابان سمیه تهران",
+    "image": "https://hotelyar.com/pic/1859small.jpg",
+    "description": "هتل آزادی خیابان سمیه تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1859/هتل-آزادی-خیابان-سمیه-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان سمیه ، بین مفتح و فرصت ، شماره 138 - هتل آزادی خیابان سمیه تهران",
+      "addressLocality": "خیابان سمیه ، بین مفتح و فرصت ، شماره 138 - هتل آزادی خیابان سمیه تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4",
+      "reviewCount": "85"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ویستریا تهران",
+    "image": "https://hotelyar.com/pic/1764small.jpg",
+    "description": "هتل ویستریا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1764/هتل-ویستریا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - تجریش - چهارراه قدس - خیابان دربند - هتل ویستریا تهران",
+      "addressLocality": "تهران - تجریش - چهارراه قدس - خیابان دربند - هتل ویستریا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "1107"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل هما تهران",
+    "image": "https://hotelyar.com/pic/388small.jpg",
+    "description": "هتل هما تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.761661,51.4051",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.761661",
+      "longitude": "51.4051"
+    },
+    "url": "http:https://hotelyar.com/hotel/388/هتل-هما-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان ونک - خیابان ولیعصر - خیابان شهید خدامی - شماره 51  - هتل هما تهران",
+      "addressLocality": "تهران - میدان ونک - خیابان ولیعصر - خیابان شهید خدامی - شماره 51  - هتل هما تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.5",
+      "reviewCount": "268"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پرشین پلازا تهران",
+    "image": "https://hotelyar.com/pic/1660small.jpg",
+    "description": "هتل پرشین پلازا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.728446,51.439879",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.728446",
+      "longitude": "51.439879"
+    },
+    "url": "http:https://hotelyar.com/hotel/1660/هتل-پرشین-پلازا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - سهروردی شمالی - پایینتر از بهشتی - خیابان میرزای زینالی شرقی - پلاک 42\r\n - هتل پرشین پلازا تهران",
+      "addressLocality": "تهران - سهروردی شمالی - پایینتر از بهشتی - خیابان میرزای زینالی شرقی - پلاک 42\r\n - هتل پرشین پلازا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "242"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان تاج محل تهران",
+    "image": "https://hotelyar.com/pic/816small.jpg",
+    "description": "هتل آپارتمان تاج محل تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.752365,51.396253",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.752365",
+      "longitude": "51.396253"
+    },
+    "url": "http:https://hotelyar.com/hotel/816/هتل-آپارتمان-تاج-محل-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان ونک - خیابان ملاصدرا - خیابان شیخ بهایی جنوبی - پلاک 29 - هتل آپارتمان تاج محل تهران",
+      "addressLocality": "تهران - میدان ونک - خیابان ملاصدرا - خیابان شیخ بهایی جنوبی - پلاک 29 - هتل آپارتمان تاج محل تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "1429"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اوین تهران",
+    "image": "https://hotelyar.com/pic/510small.jpg",
+    "description": "هتل اوین تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.789167,51.390951",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.789167",
+      "longitude": "51.390951"
+    },
+    "url": "http:https://hotelyar.com/hotel/510/هتل-اوین-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "بزرگراه شهید دکتر چمران - تقاطع اوین - هتل اوین تهران",
+      "addressLocality": "بزرگراه شهید دکتر چمران - تقاطع اوین - هتل اوین تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.4",
+      "reviewCount": "10"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آتانا تهران",
+    "image": "https://hotelyar.com/pic/1844small.jpg",
+    "description": "هتل آتانا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706310,51.402205",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706310",
+      "longitude": "51.402205"
+    },
+    "url": "http:https://hotelyar.com/hotel/1844/هتل-آتانا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان طالقانی - نرسیده به میدان فلسطین - جنب کلانتری - پلاک 401 - هتل آتانا تهران",
+      "addressLocality": "تهران - خیابان طالقانی - نرسیده به میدان فلسطین - جنب کلانتری - پلاک 401 - هتل آتانا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "955"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل لاله تهران",
+    "image": "https://hotelyar.com/pic/221small.jpg",
+    "description": "هتل لاله تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.715293,51.39356",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.715293",
+      "longitude": "51.39356"
+    },
+    "url": "http:https://hotelyar.com/hotel/221/هتل-لاله-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان فاطمی - جنب خیابان حجاب - هتل لاله تهران",
+      "addressLocality": "تهران - خیابان فاطمی - جنب خیابان حجاب - هتل لاله تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "288"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل سیمرغ تهران",
+    "image": "https://hotelyar.com/pic/319small.jpg",
+    "description": "هتل سیمرغ تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.731083,51.412083",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.731083",
+      "longitude": "51.412083"
+    },
+    "url": "http:https://hotelyar.com/hotel/319/هتل-سیمرغ-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر - نرسیده به پارک ساعی - نبش کوچه دلبسته - پلاک 1069 - هتل سیمرغ تهران",
+      "addressLocality": "خیابان ولیعصر - نرسیده به پارک ساعی - نبش کوچه دلبسته - پلاک 1069 - هتل سیمرغ تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "673"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پارسیان انقلاب تهران",
+    "image": "https://hotelyar.com/pic/543small.jpg",
+    "description": "هتل پارسیان انقلاب تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706746,51.408812",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706746",
+      "longitude": "51.408812"
+    },
+    "url": "http:https://hotelyar.com/hotel/543/هتل-پارسیان-انقلاب-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان طالقانی - بین حافظ و ولیعصر - هتل پارسیان انقلاب تهران",
+      "addressLocality": "تهران - خیابان طالقانی - بین حافظ و ولیعصر - هتل پارسیان انقلاب تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.3",
+      "reviewCount": "5"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان وزراء تهران",
+    "image": "https://hotelyar.com/pic/1267small.jpg",
+    "description": "هتل آپارتمان وزراء تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.744456,51.411833",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.744456",
+      "longitude": "51.411833"
+    },
+    "url": "http:https://hotelyar.com/hotel/1267/هتل-آپارتمان-وزراء-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان خالد اسلامبولی (وزراء) - بعد از بیمارستان گاندی - پلاک 124 - هتل آپارتمان وزراء - هتل آپارتمان وزراء تهران",
+      "addressLocality": "تهران - خیابان خالد اسلامبولی (وزراء) - بعد از بیمارستان گاندی - پلاک 124 - هتل آپارتمان وزراء - هتل آپارتمان وزراء تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "87"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بلوط تهران",
+    "image": "https://hotelyar.com/pic/1251small.jpg",
+    "description": "هتل بلوط تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.796964,51.403133",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.796964",
+      "longitude": "51.403133"
+    },
+    "url": "http:https://hotelyar.com/hotel/1251/هتل-بلوط-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - ولنجک - خیابان یمن - بالاتر از چهارراه مقدس اردبیلی - سمت چپ - باغ گیاه پزشکی - هتل بلوط - هتل بلوط تهران",
+      "addressLocality": "تهران - ولنجک - خیابان یمن - بالاتر از چهارراه مقدس اردبیلی - سمت چپ - باغ گیاه پزشکی - هتل بلوط - هتل بلوط تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "540"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل نووتل تهران",
+    "image": "https://hotelyar.com/pic/1146small.jpg",
+    "description": "هتل نووتل تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.405945,51.155288",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.405945",
+      "longitude": "51.155288"
+    },
+    "url": "http:https://hotelyar.com/hotel/1146/هتل-نووتل-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "کیلومتر30 اتوبان خلیج فارس(تهران - قم) - ضلع جنوبی بلوار اصلی فرودگاه بین المللی امام خمینی(ره) - روبروی ترمینال مسافربری شماره 1 - هتل نووتل تهران",
+      "addressLocality": "کیلومتر30 اتوبان خلیج فارس(تهران - قم) - ضلع جنوبی بلوار اصلی فرودگاه بین المللی امام خمینی(ره) - روبروی ترمینال مسافربری شماره 1 - هتل نووتل تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "731"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پارسیان کوثر تهران",
+    "image": "https://hotelyar.com/pic/505small.jpg",
+    "description": "هتل پارسیان کوثر تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.713125,51.408517",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.713125",
+      "longitude": "51.408517"
+    },
+    "url": "http:https://hotelyar.com/hotel/505/هتل-پارسیان-کوثر-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "ضلع شمالی میدان ولی عصر - کوچه شهید مولائی - پلاک21 - هتل پارسیان کوثر تهران",
+      "addressLocality": "ضلع شمالی میدان ولی عصر - کوچه شهید مولائی - پلاک21 - هتل پارسیان کوثر تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "839"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ایبیس تهران",
+    "image": "https://hotelyar.com/pic/1038small.jpg",
+    "description": "هتل ایبیس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.405641,51.155868",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.405641",
+      "longitude": "51.155868"
+    },
+    "url": "http:https://hotelyar.com/hotel/1038/هتل-ایبیس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "کیلومتر30 اتوبان خلیج فارس(تهران - قم) - ضلع جنوبی بلوار اصلی فرودگاه بین المللی امام خمینی(ره) - روبروی ترمینال مسافربری شماره 1 - هتل ایبیس تهران",
+      "addressLocality": "کیلومتر30 اتوبان خلیج فارس(تهران - قم) - ضلع جنوبی بلوار اصلی فرودگاه بین المللی امام خمینی(ره) - روبروی ترمینال مسافربری شماره 1 - هتل ایبیس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان تاوریژ تهران",
+    "image": "https://hotelyar.com/pic/1663small.jpg",
+    "description": "هتل آپارتمان تاوریژ تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.751642,51.398355",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.751642",
+      "longitude": "51.398355"
+    },
+    "url": "http:https://hotelyar.com/hotel/1663/هتل-آپارتمان-تاوریژ-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران -میدان ونک - خیابان ملاصدرا - خیابان شیخ بهایی جنوبی - بلوار برزیل غربی -  شماره 154 - هتل آپارتمان تاوریژ تهران",
+      "addressLocality": "تهران -میدان ونک - خیابان ملاصدرا - خیابان شیخ بهایی جنوبی - بلوار برزیل غربی -  شماره 154 - هتل آپارتمان تاوریژ تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4",
+      "reviewCount": "417"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بزرگ تهران",
+    "image": "https://hotelyar.com/pic/318small.jpg",
+    "description": "هتل بزرگ تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.72386,51.410764",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.72386",
+      "longitude": "51.410764"
+    },
+    "url": "http:https://hotelyar.com/hotel/318/هتل-بزرگ-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تقاطع ولیعصر و استاد مطهری - شماره 391 - هتل بزرگ تهران",
+      "addressLocality": "تقاطع ولیعصر و استاد مطهری - شماره 391 - هتل بزرگ تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "145"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پاریز تهران",
+    "image": "https://hotelyar.com/pic/368small.jpg",
+    "description": "هتل پاریز تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.764914,51.420594",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.764914",
+      "longitude": "51.420594"
+    },
+    "url": "http:https://hotelyar.com/hotel/368/هتل-پاریز-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان جردن (آفریقا) - بین ظفر و میرداماد - بلوار مینا - پلاک 20 - هتل پاریز تهران - هتل پاریز تهران",
+      "addressLocality": "خیابان جردن (آفریقا) - بین ظفر و میرداماد - بلوار مینا - پلاک 20 - هتل پاریز تهران - هتل پاریز تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.4",
+      "reviewCount": "139"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل دیاموند تهران",
+    "image": "https://hotelyar.com/pic/831small.jpg",
+    "description": "هتل دیاموند تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.786915,51.422787",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.786915",
+      "longitude": "51.422787"
+    },
+    "url": "http:https://hotelyar.com/hotel/831/هتل-دیاموند-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "بالاتر از چهارراه پارک وی - خیابان فرشته (فیاضی) - خیابان بیدار - خیابان مریم غربی - خیابان راز - پلاک 6 - هتل دیاموند تهران",
+      "addressLocality": "بالاتر از چهارراه پارک وی - خیابان فرشته (فیاضی) - خیابان بیدار - خیابان مریم غربی - خیابان راز - پلاک 6 - هتل دیاموند تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "485"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل المپیک تهران",
+    "image": "https://hotelyar.com/pic/671small.jpg",
+    "description": "هتل المپیک تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.723999,51.266355",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.723999",
+      "longitude": "51.266355"
+    },
+    "url": "http:https://hotelyar.com/hotel/671/هتل-المپیک-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "ضلع غربی مجموعه ورزشی آزادی - بلوار دهکده  - هتل المپیک تهران",
+      "addressLocality": "ضلع غربی مجموعه ورزشی آزادی - بلوار دهکده  - هتل المپیک تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "200"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل فردوسی تهران",
+    "image": "https://hotelyar.com/pic/574small.jpg",
+    "description": "هتل فردوسی تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.688275,51.419648",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.688275",
+      "longitude": "51.419648"
+    },
+    "url": "http:https://hotelyar.com/hotel/574/هتل-فردوسی-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": " میدان امام خمینی - ابتدای خیابان فردوسی - خیابان کوشک مصری - شماره 24 - هتل فردوسی تهران",
+      "addressLocality": " میدان امام خمینی - ابتدای خیابان فردوسی - خیابان کوشک مصری - شماره 24 - هتل فردوسی تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "171"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بزرگ ارم تهران",
+    "image": "https://hotelyar.com/pic/312small.jpg",
+    "description": "هتل بزرگ ارم تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.751399,51.437192",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.751399",
+      "longitude": "51.437192"
+    },
+    "url": "http:https://hotelyar.com/hotel/312/هتل-بزرگ-ارم-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان ونک - اتوبان شهید حقانی - جنب روگذر شهید همت - هتل بزرگ ارم تهران",
+      "addressLocality": "تهران - میدان ونک - اتوبان شهید حقانی - جنب روگذر شهید همت - هتل بزرگ ارم تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4",
+      "reviewCount": "185"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آرامیس تهران",
+    "image": "https://hotelyar.com/pic/1108small.jpg",
+    "description": "هتل آرامیس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.714457,51.407212",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.714457",
+      "longitude": "51.407212"
+    },
+    "url": "http:https://hotelyar.com/hotel/1108/هتل-آرامیس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "بالاتر از میدان ولیعصر - حد فاصل سینما استقلال و آفریقا -  پلاک 1752 - هتل آرامیس تهران",
+      "addressLocality": "بالاتر از میدان ولیعصر - حد فاصل سینما استقلال و آفریقا -  پلاک 1752 - هتل آرامیس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "312"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آساره تهران",
+    "image": "https://hotelyar.com/pic/487small.jpg",
+    "description": "هتل آساره تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.69831,51.384717",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.69831",
+      "longitude": "51.384717"
+    },
+    "url": "http:https://hotelyar.com/hotel/487/هتل-آساره-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان آزادی - روبروی دانشگاه دامپزشکی - انتهای خیابان زارع - شماره 1 - هتل آساره تهران",
+      "addressLocality": "خیابان آزادی - روبروی دانشگاه دامپزشکی - انتهای خیابان زارع - شماره 1 - هتل آساره تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "6"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل مروارید تهران",
+    "image": "https://hotelyar.com/pic/784small.jpg",
+    "description": "هتل مروارید تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/784/هتل-مروارید-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "ضلع شمال غربی میدان هفت تیر،هتل مروارید - هتل مروارید تهران",
+      "addressLocality": "ضلع شمال غربی میدان هفت تیر،هتل مروارید - هتل مروارید تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "159"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل شهر تهران",
+    "image": "https://hotelyar.com/pic/686small.jpg",
+    "description": "هتل شهر تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.724287,51.522896",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.724287",
+      "longitude": "51.522896"
+    },
+    "url": "http:https://hotelyar.com/hotel/686/هتل-شهر-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان دماوند - نبش سه راه تهران پارس - پلاک ۱۴۳۶  - هتل شهر تهران",
+      "addressLocality": "تهران - خیابان دماوند - نبش سه راه تهران پارس - پلاک ۱۴۳۶  - هتل شهر تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.3",
+      "reviewCount": "4"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "0"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان ونک تهران",
+    "image": "https://hotelyar.com/pic/70small.jpg",
+    "description": "هتل آپارتمان ونک تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.754529,51.406672",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.754529",
+      "longitude": "51.406672"
+    },
+    "url": "http:https://hotelyar.com/hotel/70/هتل-آپارتمان-ونک-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران -میدان ونک -خیابان برزیل شرقی -جنب وزارت جهاد کشاورزی پلاک 32 - هتل آپارتمان ونک تهران",
+      "addressLocality": "تهران -میدان ونک -خیابان برزیل شرقی -جنب وزارت جهاد کشاورزی پلاک 32 - هتل آپارتمان ونک تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "109"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل هویزه تهران",
+    "image": "https://hotelyar.com/pic/736small.jpg",
+    "description": "هتل هویزه تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.707075,51.415653",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.707075",
+      "longitude": "51.415653"
+    },
+    "url": "http:https://hotelyar.com/hotel/736/هتل-هویزه-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان آیت اله طالقانی - تقاطع نجات الهی (ویلا) - شماره 115 - هتل هویزه تهران",
+      "addressLocality": "خیابان آیت اله طالقانی - تقاطع نجات الهی (ویلا) - شماره 115 - هتل هویزه تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "139"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ورزش تهران",
+    "image": "https://hotelyar.com/pic/779small.jpg",
+    "description": "هتل ورزش تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.713351,51.39488",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.713351",
+      "longitude": "51.39488"
+    },
+    "url": "http:https://hotelyar.com/hotel/779/هتل-ورزش-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان فاطمی - خیابان حجاب - جنب کانون پرورش فکری - پلاک 16 - هتل ورزش تهران",
+      "addressLocality": "تهران - خیابان فاطمی - خیابان حجاب - جنب کانون پرورش فکری - پلاک 16 - هتل ورزش تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.5",
+      "reviewCount": "67"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل رامتین تهران",
+    "image": "https://hotelyar.com/pic/506small.jpg",
+    "description": "هتل رامتین تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.732254,51.411477",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.732254",
+      "longitude": "51.411477"
+    },
+    "url": "http:https://hotelyar.com/hotel/506/هتل-رامتین-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر - بالاتر از سه راه عباس آباد - رو به روی پمپ بنزین - پلاک 2153 - هتل رامتین تهران",
+      "addressLocality": "خیابان ولیعصر - بالاتر از سه راه عباس آباد - رو به روی پمپ بنزین - پلاک 2153 - هتل رامتین تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.2",
+      "reviewCount": "113"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اسکان الوند تهران",
+    "image": "https://hotelyar.com/pic/1096small.jpg",
+    "description": "هتل اسکان الوند تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.743811,51.414417",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.743811",
+      "longitude": "51.414417"
+    },
+    "url": "http:https://hotelyar.com/hotel/1096/هتل-اسکان-الوند-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "میدان آرژانتین - انتهای خیابان الوند -کوچه اسفراین - نبش اهورا مزدا - هتل اسکان الوند تهران",
+      "addressLocality": "میدان آرژانتین - انتهای خیابان الوند -کوچه اسفراین - نبش اهورا مزدا - هتل اسکان الوند تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "36"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بستان تهران",
+    "image": "https://hotelyar.com/pic/993small.jpg",
+    "description": "هتل بستان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.74202,51.252137",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.74202",
+      "longitude": "51.252137"
+    },
+    "url": "http:https://hotelyar.com/hotel/993/هتل-بستان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - اتوبان تهران کرج - خروجی شهرک گلستان و پارک چیتگر - بلوار کوهک - رو به روی پمپ بنزین و گاز - هتل بستان تهران",
+      "addressLocality": "تهران - اتوبان تهران کرج - خروجی شهرک گلستان و پارک چیتگر - بلوار کوهک - رو به روی پمپ بنزین و گاز - هتل بستان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.2",
+      "reviewCount": "128"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آکادمی فوتبال ایران تهران",
+    "image": "https://hotelyar.com/pic/756small.jpg",
+    "description": "هتل آکادمی فوتبال ایران تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.723999,51.266356",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.723999",
+      "longitude": "51.266356"
+    },
+    "url": "http:https://hotelyar.com/hotel/756/هتل-آکادمی-فوتبال-ایران-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "جنب درب غربی مجموعه ورزشی آزادی - ورودی هتل المپیک - هتل آکادمی فوتبال  - هتل آکادمی فوتبال ایران تهران",
+      "addressLocality": "جنب درب غربی مجموعه ورزشی آزادی - ورودی هتل المپیک - هتل آکادمی فوتبال  - هتل آکادمی فوتبال ایران تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.3",
+      "reviewCount": "7"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پردیس تهران",
+    "image": "https://hotelyar.com/pic/1602small.jpg",
+    "description": "هتل پردیس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1602/هتل-پردیس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران – کیلومتر 20 جاده دماوند- پارک فناوری پردیس – خیابان نوآوری - هتل پردیس تهران",
+      "addressLocality": "تهران – کیلومتر 20 جاده دماوند- پارک فناوری پردیس – خیابان نوآوری - هتل پردیس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "64"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل برج سفید تهران",
+    "image": "https://hotelyar.com/pic/830small.jpg",
+    "description": "هتل برج سفید تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.766411,51.45631",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.766411",
+      "longitude": "51.45631"
+    },
+    "url": "http:https://hotelyar.com/hotel/830/هتل-برج-سفید-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان پاسداران - روبروی بوستان ششم - هتل برج سفید تهران",
+      "addressLocality": "تهران - خیابان پاسداران - روبروی بوستان ششم - هتل برج سفید تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "47"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بزرگ 2 تهران",
+    "image": "https://hotelyar.com/pic/850small.jpg",
+    "description": "هتل بزرگ 2 تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.711239,51.416113",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.711239",
+      "longitude": "51.416113"
+    },
+    "url": "http:https://hotelyar.com/hotel/850/هتل-بزرگ-2-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان استاد نجات الهی - خیابان سپند شرقی - شماره 28 - هتل بزرگ 2 تهران",
+      "addressLocality": "خیابان استاد نجات الهی - خیابان سپند شرقی - شماره 28 - هتل بزرگ 2 تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4",
+      "reviewCount": "33"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل نیلو تهران",
+    "image": "https://hotelyar.com/pic/818small.jpg",
+    "description": "هتل نیلو تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.752417,51.40982",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.752417",
+      "longitude": "51.40982"
+    },
+    "url": "http:https://hotelyar.com/hotel/818/هتل-نیلو-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر - بالاتر از بیمارستان دی - خیابان هفتم - خیابان نیلو شمالی - پلاک 3 - هتل نیلو تهران",
+      "addressLocality": "خیابان ولیعصر - بالاتر از بیمارستان دی - خیابان هفتم - خیابان نیلو شمالی - پلاک 3 - هتل نیلو تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "114"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اورین تهران",
+    "image": "https://hotelyar.com/pic/1051small.jpg",
+    "description": "هتل اورین تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.702024,51.390524",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.702024",
+      "longitude": "51.390524"
+    },
+    "url": "http:https://hotelyar.com/hotel/1051/هتل-اورین-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان انقلاب - ابتدای کارگر شمالی- کوچه مجد - شماره 12 - هتل اورین تهران",
+      "addressLocality": "تهران - میدان انقلاب - ابتدای کارگر شمالی- کوچه مجد - شماره 12 - هتل اورین تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.4",
+      "reviewCount": "34"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل شهریار تهران",
+    "image": "https://hotelyar.com/pic/1213small.jpg",
+    "description": "هتل شهریار تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.683539,51.423187",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.683539",
+      "longitude": "51.423187"
+    },
+    "url": "http:https://hotelyar.com/hotel/1213/هتل-شهریار-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "میدان امام خمینی - خیابان سعدی جنوبی - بلوک 8 غربی - پلاک24 - هتل شهریار تهران",
+      "addressLocality": "میدان امام خمینی - خیابان سعدی جنوبی - بلوک 8 غربی - پلاک24 - هتل شهریار تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.2",
+      "reviewCount": "46"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پامچال تهران",
+    "image": "https://hotelyar.com/pic/1214small.jpg",
+    "description": "هتل پامچال تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.704407,51.423788",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.704407",
+      "longitude": "51.423788"
+    },
+    "url": "http:https://hotelyar.com/hotel/1214/هتل-پامچال-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان مفتح جنوبی  - بعد از تقاطع سمیه - کوچه ثاقب - پلاک 22 - هتل پامچال تهران",
+      "addressLocality": "خیابان مفتح جنوبی  - بعد از تقاطع سمیه - کوچه ثاقب - پلاک 22 - هتل پامچال تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "43"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل حجاب تهران",
+    "image": "https://hotelyar.com/pic/835small.jpg",
+    "description": "هتل حجاب تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.710789,51.396553",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.710789",
+      "longitude": "51.396553"
+    },
+    "url": "http:https://hotelyar.com/hotel/835/هتل-حجاب-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "بلوار کشاورز - خیابان حجاب - نبش کوچه 5 - هتل حجاب - هتل حجاب تهران",
+      "addressLocality": "بلوار کشاورز - خیابان حجاب - نبش کوچه 5 - هتل حجاب - هتل حجاب تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.4",
+      "reviewCount": "28"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اسکان تهران",
+    "image": "https://hotelyar.com/pic/792small.jpg",
+    "description": "هتل اسکان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.70401,51.421545",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.70401",
+      "longitude": "51.421545"
+    },
+    "url": "http:https://hotelyar.com/hotel/792/هتل-اسکان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان انقلاب - خیابان موسوی (فرصت) - بین سمیه و انقلاب - هتل اسکان تهران",
+      "addressLocality": "خیابان انقلاب - خیابان موسوی (فرصت) - بین سمیه و انقلاب - هتل اسکان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "3"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بوتیک طوبی تهران",
+    "image": "https://hotelyar.com/pic/411small.jpg",
+    "description": "هتل بوتیک طوبی تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.768949,51.418402",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.768949",
+      "longitude": "51.418402"
+    },
+    "url": "http:https://hotelyar.com/hotel/411/هتل-بوتیک-طوبی-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بلوار آفریقا (جردن) - خیابان ناصری - پلاک 17 - هتل آپارتمان طوبی - هتل بوتیک طوبی تهران",
+      "addressLocality": "تهران - بلوار آفریقا (جردن) - خیابان ناصری - پلاک 17 - هتل آپارتمان طوبی - هتل بوتیک طوبی تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "12"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ایرانشهر تهران",
+    "image": "https://hotelyar.com/pic/578small.jpg",
+    "description": "هتل ایرانشهر تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.70415,51.420147",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.70415",
+      "longitude": "51.420147"
+    },
+    "url": "http:https://hotelyar.com/hotel/578/هتل-ایرانشهر-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان ایرانشهر جنوبی - بین خیابان سمیه و انقلاب \r\n - هتل ایرانشهر تهران",
+      "addressLocality": "تهران - خیابان ایرانشهر جنوبی - بین خیابان سمیه و انقلاب \r\n - هتل ایرانشهر تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "56"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ساینا تهران",
+    "image": "https://hotelyar.com/pic/419small.jpg",
+    "description": "هتل ساینا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.723704,51.406678",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.723704",
+      "longitude": "51.406678"
+    },
+    "url": "http:https://hotelyar.com/hotel/419/هتل-ساینا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر - خیابان اسدآبادی(یوسف آباد) - خیابان فتحی شقاقی - پلاک 60 - هتل ساینا تهران",
+      "addressLocality": "خیابان ولیعصر - خیابان اسدآبادی(یوسف آباد) - خیابان فتحی شقاقی - پلاک 60 - هتل ساینا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "88"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل شیراز تهران",
+    "image": "https://hotelyar.com/pic/812small.jpg",
+    "description": "هتل شیراز تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.695809,51.42528",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.695809",
+      "longitude": "51.42528"
+    },
+    "url": "http:https://hotelyar.com/hotel/812/هتل-شیراز-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان سعدی شمالی - بین خیابان منوچهری و مخبرالدوله - هتل شیراز تهران",
+      "addressLocality": "خیابان سعدی شمالی - بین خیابان منوچهری و مخبرالدوله - هتل شیراز تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "39"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل هالی تهران",
+    "image": "https://hotelyar.com/pic/581small.jpg",
+    "description": "هتل هالی تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706012,51.41741",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706012",
+      "longitude": "51.41741"
+    },
+    "url": "http:https://hotelyar.com/hotel/581/هتل-هالی-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان طالقانی -بین خیابان استاد نجات الهی و خیابان قرنی- خیابان صف شکن  - هتل هالی تهران",
+      "addressLocality": "خیابان طالقانی -بین خیابان استاد نجات الهی و خیابان قرنی- خیابان صف شکن  - هتل هالی تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.3",
+      "reviewCount": "16"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پرشیا تهران",
+    "image": "https://hotelyar.com/pic/530small.jpg",
+    "description": "هتل پرشیا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.702067,51.41306",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.702067",
+      "longitude": "51.41306"
+    },
+    "url": "http:https://hotelyar.com/hotel/530/هتل-پرشیا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان حافظ  - نرسیده به چهار راه کالج - هتل پرشیا تهران",
+      "addressLocality": "خیابان حافظ  - نرسیده به چهار راه کالج - هتل پرشیا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.5",
+      "reviewCount": "10"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان کیمیا(پارسی) تهران",
+    "image": "https://hotelyar.com/pic/827small.jpg",
+    "description": "هتل آپارتمان کیمیا(پارسی) تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.699213,51.393318",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.699213",
+      "longitude": "51.393318"
+    },
+    "url": "http:https://hotelyar.com/hotel/827/هتل-آپارتمان-کیمیا(پارسی)-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "میدان انقلاب - خیابان 12 فروردین - خیابان نظری غربی - پلاک 101 - هتل اپارتمان پارسی - هتل آپارتمان کیمیا(پارسی) تهران",
+      "addressLocality": "میدان انقلاب - خیابان 12 فروردین - خیابان نظری غربی - پلاک 101 - هتل اپارتمان پارسی - هتل آپارتمان کیمیا(پارسی) تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "8"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل امیر تهران",
+    "image": "https://hotelyar.com/pic/789small.jpg",
+    "description": "هتل امیر تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706614,51.420134",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706614",
+      "longitude": "51.420134"
+    },
+    "url": "http:https://hotelyar.com/hotel/789/هتل-امیر-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان طالقانی - بین خیابان ایرانشهر و خیابان شهید موسوی (فرصت سابق) - پلاک 278 - هتل امیر تهران",
+      "addressLocality": "خیابان طالقانی - بین خیابان ایرانشهر و خیابان شهید موسوی (فرصت سابق) - پلاک 278 - هتل امیر تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان مهرگان تهران",
+    "image": "https://hotelyar.com/pic/813small.jpg",
+    "description": "هتل آپارتمان مهرگان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.709832,51.417945",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.709832",
+      "longitude": "51.417945"
+    },
+    "url": "http:https://hotelyar.com/hotel/813/هتل-آپارتمان-مهرگان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "میدان فردوسی - خیابان سپهبد قرنی - بالاتر از چهار راه طالقانی - نرسیده به خیابان شاداب - هتل آپارتمان مهرگان تهران",
+      "addressLocality": "میدان فردوسی - خیابان سپهبد قرنی - بالاتر از چهار راه طالقانی - نرسیده به خیابان شاداب - هتل آپارتمان مهرگان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان مدیا تهران",
+    "image": "https://hotelyar.com/pic/354small.jpg",
+    "description": "هتل آپارتمان مدیا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.773016,51.425362",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.773016",
+      "longitude": "51.425362"
+    },
+    "url": "http:https://hotelyar.com/hotel/354/هتل-آپارتمان-مدیا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بزرگراه آفریقا - ارمغان شرقی - پلاک 58 - هتل آپارتمان مدیا تهران",
+      "addressLocality": "تهران - بزرگراه آفریقا - ارمغان شرقی - پلاک 58 - هتل آپارتمان مدیا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "16"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بولوار تهران",
+    "image": "https://hotelyar.com/pic/1231small.jpg",
+    "description": "هتل بولوار تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.707414,51.393614",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.707414",
+      "longitude": "51.393614"
+    },
+    "url": "http:https://hotelyar.com/hotel/1231/هتل-بولوار-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بولوار کشاورز - روبروی پارک لاله - نبش کوچه جلالیه - پلاک 262 - هتل بولوار تهران",
+      "addressLocality": "تهران - بولوار کشاورز - روبروی پارک لاله - نبش کوچه جلالیه - پلاک 262 - هتل بولوار تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "23"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ایران تهران",
+    "image": "https://hotelyar.com/pic/821small.jpg",
+    "description": "هتل ایران تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.713614,51.409075",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.713614",
+      "longitude": "51.409075"
+    },
+    "url": "http:https://hotelyar.com/hotel/821/هتل-ایران-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر - بالاتر از میدان ولیعصر - روبروی سینما استقلال - خیابان شهید شهامتی - هتل ایران تهران",
+      "addressLocality": "خیابان ولیعصر - بالاتر از میدان ولیعصر - روبروی سینما استقلال - خیابان شهید شهامتی - هتل ایران تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "2.7",
+      "reviewCount": "24"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پاسارگاد تهران",
+    "image": "https://hotelyar.com/pic/1165small.jpg",
+    "description": "هتل پاسارگاد تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.698303,51.389245",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.698303",
+      "longitude": "51.389245"
+    },
+    "url": "http:https://hotelyar.com/hotel/1165/هتل-پاسارگاد-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان جمهوری - خیابان جمالزاده جنوبی - پلاک 61 - هتل پاسارگاد تهران",
+      "addressLocality": "خیابان جمهوری - خیابان جمالزاده جنوبی - پلاک 61 - هتل پاسارگاد تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.3",
+      "reviewCount": "50"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل دانش تهران",
+    "image": "https://hotelyar.com/pic/1188small.jpg",
+    "description": "هتل دانش تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.747077,51.162621",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.747077",
+      "longitude": "51.162621"
+    },
+    "url": "http:https://hotelyar.com/hotel/1188/هتل-دانش-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - ضلع شمالی آزادراه تهران_کرج - بعد از پیکانشهر - خروجی شهرک دانشگاه شریف -  خیابان دانش( به سمت شرق ) - پژوهشگاه شیمی و مهندسی شیمی ایران - هتل دانش - هتل دانش تهران",
+      "addressLocality": "تهران - ضلع شمالی آزادراه تهران_کرج - بعد از پیکانشهر - خروجی شهرک دانشگاه شریف -  خیابان دانش( به سمت شرق ) - پژوهشگاه شیمی و مهندسی شیمی ایران - هتل دانش - هتل دانش تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.5",
+      "reviewCount": "21"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل مرکزی ایران تهران",
+    "image": "https://hotelyar.com/pic/1019small.jpg",
+    "description": "هتل مرکزی ایران تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.695712,51.423465",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.695712",
+      "longitude": "51.423465"
+    },
+    "url": "http:https://hotelyar.com/hotel/1019/هتل-مرکزی-ایران-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "لاله زار نو - نرسیده به منوچهری - پایین تر از سینما کریستال - هتل مرکزی  - هتل مرکزی ایران تهران",
+      "addressLocality": "لاله زار نو - نرسیده به منوچهری - پایین تر از سینما کریستال - هتل مرکزی  - هتل مرکزی ایران تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "8"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان ونوس تهران",
+    "image": "https://hotelyar.com/pic/817small.jpg",
+    "description": "هتل آپارتمان ونوس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.728802,51.440565",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.728802",
+      "longitude": "51.440565"
+    },
+    "url": "http:https://hotelyar.com/hotel/817/هتل-آپارتمان-ونوس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان سهروردی شمالی - چهار راه کیهان - خیابان زینالی شرقی - پلاک 31 - هتل آپارتمان ونوس تهران",
+      "addressLocality": "خیابان سهروردی شمالی - چهار راه کیهان - خیابان زینالی شرقی - پلاک 31 - هتل آپارتمان ونوس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "29"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل اطلس تهران",
+    "image": "https://hotelyar.com/pic/1152small.jpg",
+    "description": "هتل اطلس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.707177,51.418161",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.707177",
+      "longitude": "51.418161"
+    },
+    "url": "http:https://hotelyar.com/hotel/1152/هتل-اطلس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان طالقانی - نرسیده به سپهبد قرنی - روبروی داروخانه هلال احمر - پلاک 207 - هتل اطلس تهران",
+      "addressLocality": "خیابان طالقانی - نرسیده به سپهبد قرنی - روبروی داروخانه هلال احمر - پلاک 207 - هتل اطلس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.3",
+      "reviewCount": "117"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ساسان تهران",
+    "image": "https://hotelyar.com/pic/822small.jpg",
+    "description": "هتل ساسان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.712296,51.437786",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.712296",
+      "longitude": "51.437786"
+    },
+    "url": "http:https://hotelyar.com/hotel/822/هتل-ساسان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "شریعتی جنوبی - پایین تر از سه راه ملک - پایین تر از سینما ایران - کوچه نیرو - هتل ساسان - هتل ساسان تهران",
+      "addressLocality": "شریعتی جنوبی - پایین تر از سه راه ملک - پایین تر از سینما ایران - کوچه نیرو - هتل ساسان - هتل ساسان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "11"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان پارس تهران",
+    "image": "https://hotelyar.com/pic/386small.jpg",
+    "description": "هتل آپارتمان پارس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.698126,51.396429",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.698126",
+      "longitude": "51.396429"
+    },
+    "url": "http:https://hotelyar.com/hotel/386/هتل-آپارتمان-پارس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران  - خیابان انقلاب - روبروی درب اصلی دانشگاه تهران - خیابان فخررازی - خیابان روانمهر - هتل آپارتمان پارس - هتل آپارتمان پارس تهران",
+      "addressLocality": "تهران  - خیابان انقلاب - روبروی درب اصلی دانشگاه تهران - خیابان فخررازی - خیابان روانمهر - هتل آپارتمان پارس - هتل آپارتمان پارس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "74"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل جهان تهران",
+    "image": "https://hotelyar.com/pic/502small.jpg",
+    "description": "هتل جهان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706246,51.4064",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706246",
+      "longitude": "51.4064"
+    },
+    "url": "http:https://hotelyar.com/hotel/502/هتل-جهان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولی عصر - نبش خیابان طالقانی - کوچه رحیم زاده - هتل جهان تهران",
+      "addressLocality": "خیابان ولی عصر - نبش خیابان طالقانی - کوچه رحیم زاده - هتل جهان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "44"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بلور تهران",
+    "image": "https://hotelyar.com/pic/575small.jpg",
+    "description": "هتل بلور تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.714718,51.417922",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.714718",
+      "longitude": "51.417922"
+    },
+    "url": "http:https://hotelyar.com/hotel/575/هتل-بلور-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان سپهبد قرنی ـ تقاطع پل کریمخان ـ پلاک ۲۰۱ - هتل بلور تهران",
+      "addressLocality": "خیابان سپهبد قرنی ـ تقاطع پل کریمخان ـ پلاک ۲۰۱ - هتل بلور تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.4",
+      "reviewCount": "1"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل توچال تهران",
+    "image": "https://hotelyar.com/pic/863small.jpg",
+    "description": "هتل توچال تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.887519,51.401158",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.887519",
+      "longitude": "51.401158"
+    },
+    "url": "http:https://hotelyar.com/hotel/863/هتل-توچال-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - بزرگراه شهید چمران - خیابان یمن - انتهای خیابان ولنجک -  تله کابین توچال - هتل توچال تهران",
+      "addressLocality": "تهران - بزرگراه شهید چمران - خیابان یمن - انتهای خیابان ولنجک -  تله کابین توچال - هتل توچال تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "26"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آرمان تهران",
+    "image": "https://hotelyar.com/pic/1089small.jpg",
+    "description": "هتل آرمان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.687761,51.425272",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.687761",
+      "longitude": "51.425272"
+    },
+    "url": "http:https://hotelyar.com/hotel/1089/هتل-آرمان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان سعدی - خیابان اکباتان - نرسیده به مترو ملت - هتل آرمان - هتل آرمان تهران",
+      "addressLocality": "خیابان سعدی - خیابان اکباتان - نرسیده به مترو ملت - هتل آرمان - هتل آرمان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.2",
+      "reviewCount": "32"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپادانا تهران",
+    "image": "https://hotelyar.com/pic/1031small.jpg",
+    "description": "هتل آپادانا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706779,51.428481",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706779",
+      "longitude": "51.428481"
+    },
+    "url": "http:https://hotelyar.com/hotel/1031/هتل-آپادانا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان طالقانی - نرسیده به خیابان بهار- روبه روی بیمارستان ارتش - پلاک 144 - هتل آپادانا تهران",
+      "addressLocality": "خیابان طالقانی - نرسیده به خیابان بهار- روبه روی بیمارستان ارتش - پلاک 144 - هتل آپادانا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.2",
+      "reviewCount": "6"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل الیان تهران",
+    "image": "https://hotelyar.com/pic/1014small.jpg",
+    "description": "هتل الیان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.683301,51.423535",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.683301",
+      "longitude": "51.423535"
+    },
+    "url": "http:https://hotelyar.com/hotel/1014/هتل-الیان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان سعدی جنوبی - پایین تر از خیابان امیرکبیر - بلوک 9 - هتل الیان  - هتل الیان تهران",
+      "addressLocality": "تهران - خیابان سعدی جنوبی - پایین تر از خیابان امیرکبیر - بلوک 9 - هتل الیان  - هتل الیان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.3",
+      "reviewCount": "52"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "0"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "مهمانسرای کشاورز تهران",
+    "image": "https://hotelyar.com/pic/1313small.jpg",
+    "description": "مهمانسرای کشاورز تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.710895,51.405499",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.710895",
+      "longitude": "51.405499"
+    },
+    "url": "http:https://hotelyar.com/hotel/1313/مهمانسرای-کشاورز-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان ولیعصر - ابتدای بلوار کشاورز - پلاک 36 - مهمانسرای کشاورز تهران",
+      "addressLocality": "تهران - میدان ولیعصر - ابتدای بلوار کشاورز - پلاک 36 - مهمانسرای کشاورز تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.7",
+      "reviewCount": "42"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل گلستان تهران",
+    "image": "https://hotelyar.com/pic/622small.jpg",
+    "description": "هتل گلستان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.687347,51.410068",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.687347",
+      "longitude": "51.410068"
+    },
+    "url": "http:https://hotelyar.com/hotel/622/هتل-گلستان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان حافظ - نرسیده به میدان حسن آباد - پلاک 14 \r\n - هتل گلستان تهران",
+      "addressLocality": "تهران - خیابان حافظ - نرسیده به میدان حسن آباد - پلاک 14 \r\n - هتل گلستان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.8",
+      "reviewCount": "1"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان سپهر تهران",
+    "image": "https://hotelyar.com/pic/936small.jpg",
+    "description": "هتل آپارتمان سپهر تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/936/هتل-آپارتمان-سپهر-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان فرشته ، خیابان بوسنی و هرزگوین ،چهارراه حسابی ، کوچه سالور\r\n  - هتل آپارتمان سپهر تهران",
+      "addressLocality": "خیابان فرشته ، خیابان بوسنی و هرزگوین ،چهارراه حسابی ، کوچه سالور\r\n  - هتل آپارتمان سپهر تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.8",
+      "reviewCount": "23"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل بهار تهران",
+    "image": "https://hotelyar.com/pic/1333small.jpg",
+    "description": "هتل بهار تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.701987,51.428328",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.701987",
+      "longitude": "51.428328"
+    },
+    "url": "http:https://hotelyar.com/hotel/1333/هتل-بهار-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان انقلاب - نبش خیابان بهار -  پلاک 5 - هتل بهار تهران",
+      "addressLocality": "تهران - خیابان انقلاب - نبش خیابان بهار -  پلاک 5 - هتل بهار تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.4",
+      "reviewCount": "39"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان پانسیون رز تهران",
+    "image": "https://hotelyar.com/pic/735small.jpg",
+    "description": "هتل آپارتمان پانسیون رز تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.703294,51.425082",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.703294",
+      "longitude": "51.425082"
+    },
+    "url": "http:https://hotelyar.com/hotel/735/هتل-آپارتمان-پانسیون-رز-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان هفت تیر - خیابان مفتح جنوبی - نرسیده به خیابان انقلاب - کوچه واحدی - پلاک 10 - هتل آپارتمان پانسیون رز تهران",
+      "addressLocality": "تهران - میدان هفت تیر - خیابان مفتح جنوبی - نرسیده به خیابان انقلاب - کوچه واحدی - پلاک 10 - هتل آپارتمان پانسیون رز تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.3",
+      "reviewCount": "1"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان ایده آل تهران",
+    "image": "https://hotelyar.com/pic/809small.jpg",
+    "description": "هتل آپارتمان ایده آل تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.719648,51.4075314",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.719648",
+      "longitude": "51.4075314"
+    },
+    "url": "http:https://hotelyar.com/hotel/809/هتل-آپارتمان-ایده-آل-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان فاطمی - خیابان شهید بهرام مصیری (کامران سابق) - پلاک 10  - هتل آپارتمان ایده آل تهران",
+      "addressLocality": "تهران - میدان فاطمی - خیابان شهید بهرام مصیری (کامران سابق) - پلاک 10  - هتل آپارتمان ایده آل تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "متل شیان تهران",
+    "image": "https://hotelyar.com/pic/42small.jpg",
+    "description": "متل شیان تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/42/متل-شیان-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - پارک جنگلی لویزان - متل شیان - متل شیان تهران",
+      "addressLocality": "تهران - پارک جنگلی لویزان - متل شیان - متل شیان تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان کوروش تهران",
+    "image": "https://hotelyar.com/pic/786small.jpg",
+    "description": "هتل آپارتمان کوروش تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.757957,51.439726",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.757957",
+      "longitude": "51.439726"
+    },
+    "url": "http:https://hotelyar.com/hotel/786/هتل-آپارتمان-کوروش-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "بلوارمیرداماد-بین میدان محسنی و مترو میرداماد - خیابان حصاری - نبش یکم - پلاک34 - هتل آپارتمان کوروش تهران",
+      "addressLocality": "بلوارمیرداماد-بین میدان محسنی و مترو میرداماد - خیابان حصاری - نبش یکم - پلاک34 - هتل آپارتمان کوروش تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "2.8",
+      "reviewCount": "3"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آفتاب تهران",
+    "image": "https://hotelyar.com/pic/1378small.jpg",
+    "description": "هتل آفتاب تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.551125,51.364604",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.551125",
+      "longitude": "51.364604"
+    },
+    "url": "http:https://hotelyar.com/hotel/1378/هتل-آفتاب-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "اتوبان تهران - قم . بزرگراه خلیج فارس . ضلع غربی حرم مطهر امام خمینی - هتل آفتاب تهران",
+      "addressLocality": "اتوبان تهران - قم . بزرگراه خلیج فارس . ضلع غربی حرم مطهر امام خمینی - هتل آفتاب تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان جم تهران",
+    "image": "https://hotelyar.com/pic/938small.jpg",
+    "description": "هتل آپارتمان جم تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.780848,51.415533",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.780848",
+      "longitude": "51.415533"
+    },
+    "url": "http:https://hotelyar.com/hotel/938/هتل-آپارتمان-جم-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "جردن، خیابان شهید طاهری، پلاک 82 - هتل آپارتمان جم تهران",
+      "addressLocality": "جردن، خیابان شهید طاهری، پلاک 82 - هتل آپارتمان جم تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.1",
+      "reviewCount": "8"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل سروش تهران",
+    "image": "https://hotelyar.com/pic/1260small.jpg",
+    "description": "هتل سروش تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.704035,51.420748",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.704035",
+      "longitude": "51.420748"
+    },
+    "url": "http:https://hotelyar.com/hotel/1260/هتل-سروش-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان فردوسی - خیابان شهید موسوی (فرصت سابق) - کوچه نمازی - هتل سروش - هتل سروش تهران",
+      "addressLocality": "تهران - میدان فردوسی - خیابان شهید موسوی (فرصت سابق) - کوچه نمازی - هتل سروش - هتل سروش تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.2",
+      "reviewCount": "3"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل ارس تهران",
+    "image": "https://hotelyar.com/pic/1511small.jpg",
+    "description": "هتل ارس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.683362,51.423726",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.683362",
+      "longitude": "51.423726"
+    },
+    "url": "http:https://hotelyar.com/hotel/1511/هتل-ارس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان سعدی جنوبی - بلوک 9 شرقی  - هتل ارس تهران",
+      "addressLocality": "تهران - خیابان سعدی جنوبی - بلوک 9 شرقی  - هتل ارس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "9"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پژوهش تهران",
+    "image": "https://hotelyar.com/pic/1599small.jpg",
+    "description": "هتل پژوهش تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1599/هتل-پژوهش-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران- کیلومتر 15 اتوبان تهران کرج- بعد از پیکانشهر- خروجی شهرک علم و فناوری پژوهش (بلوار پژوهش)- داخل پژوهشگاه پلیمر و پتروشیمی ایران - هتل پژوهش تهران",
+      "addressLocality": "تهران- کیلومتر 15 اتوبان تهران کرج- بعد از پیکانشهر- خروجی شهرک علم و فناوری پژوهش (بلوار پژوهش)- داخل پژوهشگاه پلیمر و پتروشیمی ایران - هتل پژوهش تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.2",
+      "reviewCount": "53"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل مهر تهران",
+    "image": "https://hotelyar.com/pic/1219small.jpg",
+    "description": "هتل مهر تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.686976,51.427933",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.686976",
+      "longitude": "51.427933"
+    },
+    "url": "http:https://hotelyar.com/hotel/1219/هتل-مهر-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - میدان بهارستان - چهارراه سرچشمه - خیابان امیرکبیر غربی - کوچه سراج - پشت مسجد  - هتل مهر تهران",
+      "addressLocality": "تهران - میدان بهارستان - چهارراه سرچشمه - خیابان امیرکبیر غربی - کوچه سراج - پشت مسجد  - هتل مهر تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.4",
+      "reviewCount": "28"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آراد تهران",
+    "image": "https://hotelyar.com/pic/1221small.jpg",
+    "description": "هتل آراد تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.723082,51.411826",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.723082",
+      "longitude": "51.411826"
+    },
+    "url": "http:https://hotelyar.com/hotel/1221/هتل-آراد-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - ابتدای خیابان استاد مطهری - خیابان لارستان - خیابان جهان سوز - پلاک 26 - هتل آراد تهران",
+      "addressLocality": "تهران - ابتدای خیابان استاد مطهری - خیابان لارستان - خیابان جهان سوز - پلاک 26 - هتل آراد تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "4.1",
+      "reviewCount": "9"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل کارون تهران",
+    "image": "https://hotelyar.com/pic/1569small.jpg",
+    "description": "هتل کارون تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1569/هتل-کارون-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر،بعد از چهارراه زرتشت،خیابان غفاری پلاک 18 - هتل کارون تهران",
+      "addressLocality": "خیابان ولیعصر،بعد از چهارراه زرتشت،خیابان غفاری پلاک 18 - هتل کارون تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.6",
+      "reviewCount": "5"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "2"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل سعدی تهران",
+    "image": "https://hotelyar.com/pic/1500small.jpg",
+    "description": "هتل سعدی تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.694034,51.423269",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.694034",
+      "longitude": "51.423269"
+    },
+    "url": "http:https://hotelyar.com/hotel/1500/هتل-سعدی-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان جمهوری اسلامی - بین چهار راه مخبرالدوله و چهار راه استانبول - ابتدای خیابان لاله زار نو - پلاک 367 - هتل سعدی تهران",
+      "addressLocality": "تهران - خیابان جمهوری اسلامی - بین چهار راه مخبرالدوله و چهار راه استانبول - ابتدای خیابان لاله زار نو - پلاک 367 - هتل سعدی تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.3",
+      "reviewCount": "5"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل البرز تهران",
+    "image": "https://hotelyar.com/pic/1250small.jpg",
+    "description": "هتل البرز تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.703197,51.399143",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.703197",
+      "longitude": "51.399143"
+    },
+    "url": "http:https://hotelyar.com/hotel/1250/هتل-البرز-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان وصال شیرازی - تقاطع بزرگمهر -  پلاک 22 - هتل البرز تهران",
+      "addressLocality": "تهران - خیابان وصال شیرازی - تقاطع بزرگمهر -  پلاک 22 - هتل البرز تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "2.3",
+      "reviewCount": "3"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل درسا تهران",
+    "image": "https://hotelyar.com/pic/1490small.jpg",
+    "description": "هتل درسا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.701804,51.421715",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.701804",
+      "longitude": "51.421715"
+    },
+    "url": "http:https://hotelyar.com/hotel/1490/هتل-درسا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران، خیابان انقلاب، نبش خیابان شهید موسوی (فرصت) ، پلاک ۶۱۹ - هتل درسا تهران",
+      "addressLocality": "تهران، خیابان انقلاب، نبش خیابان شهید موسوی (فرصت) ، پلاک ۶۱۹ - هتل درسا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.9",
+      "reviewCount": "13"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پارسا تهران",
+    "image": "https://hotelyar.com/pic/808small.jpg",
+    "description": "هتل پارسا تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.706303,51.406777",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.706303",
+      "longitude": "51.406777"
+    },
+    "url": "http:https://hotelyar.com/hotel/808/هتل-پارسا-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "خیابان ولیعصر - خیابان طالقانی - روبروی جهادسازندگی - پلاک23 - هتل پارسا تهران",
+      "addressLocality": "خیابان ولیعصر - خیابان طالقانی - روبروی جهادسازندگی - پلاک23 - هتل پارسا تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "1"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان پردیس گاندی تهران",
+    "image": "https://hotelyar.com/pic/1795small.jpg",
+    "description": "هتل آپارتمان پردیس گاندی تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1795/هتل-آپارتمان-پردیس-گاندی-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران، کاووسیه، خیابان گاندی جنوبی، خیابان چهاردهم، پلاک 7، طبقه منفی یک، واحد هتل آپارتمان پردیس  - هتل آپارتمان پردیس گاندی تهران",
+      "addressLocality": "تهران، کاووسیه، خیابان گاندی جنوبی، خیابان چهاردهم، پلاک 7، طبقه منفی یک، واحد هتل آپارتمان پردیس  - هتل آپارتمان پردیس گاندی تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.1",
+      "reviewCount": "1"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پرشیا 2 تهران",
+    "image": "https://hotelyar.com/pic/1460small.jpg",
+    "description": "هتل پرشیا 2 تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.662632,51.398691",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.662632",
+      "longitude": "51.398691"
+    },
+    "url": "http:https://hotelyar.com/hotel/1460/هتل-پرشیا-2-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران، میدان راه آهن، خیابان ولی عصر، نرسیده به چهارراه مختاری، هتل پرشیا۲ - هتل پرشیا 2 تهران",
+      "addressLocality": "تهران، میدان راه آهن، خیابان ولی عصر، نرسیده به چهارراه مختاری، هتل پرشیا۲ - هتل پرشیا 2 تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آپارتمان ملل تهران",
+    "image": "https://hotelyar.com/pic/1881small.jpg",
+    "description": "هتل آپارتمان ملل تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1881/هتل-آپارتمان-ملل-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان ولیعصر - بالاتر از خیابان دستگردی - خیابان ناصری - پلاک 24 - هتل آپارتمان ملل تهران",
+      "addressLocality": "تهران - خیابان ولیعصر - بالاتر از خیابان دستگردی - خیابان ناصری - پلاک 24 - هتل آپارتمان ملل تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل آماتیس تهران",
+    "image": "https://hotelyar.com/pic/1905small.jpg",
+    "description": "هتل آماتیس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=,",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "url": "http:https://hotelyar.com/hotel/1905/هتل-آماتیس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران، خیابان طالقانی، بین مفتح و موسوی، روبروی اتاق بازرگانی، پلاک 262 - هتل آماتیس تهران",
+      "addressLocality": "تهران، خیابان طالقانی، بین مفتح و موسوی، روبروی اتاق بازرگانی، پلاک 262 - هتل آماتیس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "0"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "مهمانسرای آران تهران",
+    "image": "https://hotelyar.com/pic/1910small.jpg",
+    "description": "مهمانسرای آران تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.721578,51.420502",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.721578",
+      "longitude": "51.420502"
+    },
+    "url": "http:https://hotelyar.com/hotel/1910/مهمانسرای-آران-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران،میدان هفت تیر،خیابان قائم مقام بالاتر از میدان شعاع،روبروی کشتیرانی خیبر، پلاک ۱۲۲ - مهمانسرای آران تهران",
+      "addressLocality": "تهران،میدان هفت تیر،خیابان قائم مقام بالاتر از میدان شعاع،روبروی کشتیرانی خیبر، پلاک ۱۲۲ - مهمانسرای آران تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "0"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "مهمانسرای آنامیس تهران",
+    "image": "https://hotelyar.com/pic/1923small.jpg",
+    "description": "مهمانسرای آنامیس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.761687,51.413808",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.761687",
+      "longitude": "51.413808"
+    },
+    "url": "http:https://hotelyar.com/hotel/1923/مهمانسرای-آنامیس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "میدان ونک،خیابان ولیعصر نرسیده به میرداماد،کوچه شهید علیرضا دامن افشار،مهمانپذیر آنامیس،پلاک 42،طبقه اول،واحد2 - مهمانسرای آنامیس تهران",
+      "addressLocality": "میدان ونک،خیابان ولیعصر نرسیده به میرداماد،کوچه شهید علیرضا دامن افشار،مهمانپذیر آنامیس،پلاک 42،طبقه اول،واحد2 - مهمانسرای آنامیس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "0"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل پارادایس تهران",
+    "image": "https://hotelyar.com/pic/1915small.jpg",
+    "description": "هتل پارادایس تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.699833,51.404194",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.699833",
+      "longitude": "51.404194"
+    },
+    "url": "http:https://hotelyar.com/hotel/1915/هتل-پارادایس-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران،خیابان انقلاب،نرسیده به چهار راه ولیعصر،خیابان مظفر،کوچه پشن،پلاک 14 - هتل پارادایس تهران",
+      "addressLocality": "تهران،خیابان انقلاب،نرسیده به چهار راه ولیعصر،خیابان مظفر،کوچه پشن،پلاک 14 - هتل پارادایس تهران"
+    },
+    "telephone": "+982144698615"
+  },
+  {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "worstRating": "0",
+      "bestRating": "5",
+      "ratingValue": "3.5",
+      "reviewCount": "94"
+    },
+    "starRating": {
+      "@type": "Rating",
+      "ratingValue": "3"
+    },
+    "@type": "Hotel",
+    "@context": "http://schema.org",
+    "name": "هتل مارلیک تهران",
+    "image": "https://hotelyar.com/pic/724small.jpg",
+    "description": "هتل مارلیک تهران:آدرس, شماره تلفن, موقعیت هتل روی نقشه و مسیر های دسترسی در تهران،عکس و قیمت هتل با تخفیف ویژه رزرو هتل در هتل یار",
+    "hasMap": "https://maps.google.com/maps?q=35.705534,51.426096",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.705534",
+      "longitude": "51.426096"
+    },
+    "url": "http:https://hotelyar.com/hotel/724/هتل-مارلیک-تهران",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ایران",
+      "addressRegion": "تهران",
+      "streetAddress": "تهران - خیابان دکتر مفتح - نبش چهار راه سمیه - پلاک61 - هتل مارلیک تهران",
+      "addressLocality": "تهران - خیابان دکتر مفتح - نبش چهار راه سمیه - پلاک61 - هتل مارلیک تهران"
+    },
+    "telephone": "+982144698615"
+  }
+]
