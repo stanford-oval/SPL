@@ -3,6 +3,21 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*train*.tsv*
+*eval*.tsv*
+*test*.tsv*
+*train*.txt*
+*eval*.txt*
+*test*.txt*
+*/models/*
+pyter
+README.md
+private.config
+emnlp*.mk
+create_*.mk
+train_eval.mk
+paraphrase*.mk
+
 # C extensions
 *.so
 
