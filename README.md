@@ -12,9 +12,28 @@ Semantic Parser Localizer (SPL) is a toolkit that leverages Neural Machine Trans
 We assess the effectiveness of our approach by extending the current capabilities of Schema2QA, a system for English Question Answering (QA) on the open web, to 10 new languages for the restaurants and hotels domains. We show our approach outperforms the previous state-of-the-art methodology by more than 30% for hotels and 40% for restaurants with localized ontologies.<br/>
 Our methodology enables any software developer to add a new language capability to a QA system for a new domain, leveraging machine translation, in less than 24 hours.
 
+### Methodology
+
+Data generation pipeline used to produce
+train and validation splits in a new language such as
+Italian. Given an input sentence in English and its annotation in the formal ThingTalk query language, SPL generates multiple examples in the
+target language with localized entities.
+
+<p align="center">
+<img src="https://github.com/stanford-oval/SPL/blob/master/images/multilingual-pipeline.png" width="400" >
+</p>
+
+### Results
+
+Exact match accuracy for 10 languages (Restaurants domain)
+
+<p align="center">
+<img src="https://github.com/stanford-oval/SPL/blob/master/images/chart-restaurants.png" width="1000" >
+</p>
+
 ## Quickstart
 
-#### Setup Environment :
+### Setup:
 1. Clone the following repositories into your desired folder ($SRC_DIR):
 ```bash
 cd ${SRC_DIR}
