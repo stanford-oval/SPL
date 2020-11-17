@@ -14,7 +14,7 @@ Our methodology enables any software developer to add a new language capability 
 
 ### Methodology
 
-Data generation pipeline used to produce
+This plot shows the data generation pipeline used to produce
 train and validation splits in a new language such as
 Italian. Given an input sentence in English and its annotation in the formal ThingTalk query language, SPL generates multiple examples in the
 target language with localized entities.
@@ -44,17 +44,21 @@ git clone https://github.com/stanford-oval/genie-toolkit.git
 
 2. Follow the installation guide in [genie-toolkit](https://github.com/stanford-oval/genie-toolkit) repo to install the dependencies.
 
-3. If you want to do translations for a new language, you need access to a Google Cloud account with permission to use Cloud Translation API.
+3. For each repository, the following commit hashes should be used to reproduce the results:
+    - genienlp (c6ffb08742fed0c414d6ffc5eeae679cabdb20ff)
+    - genie-toolkit (7a74010f8c51c8b0dc1c7f5e604a8af742b00a29)
+
+4. If you want to do translations for a new language, you need access to a Google Cloud account with permission to use Cloud Translation API.
 Please look here for a [quick setup](https://cloud.google.com/translate/docs/quickstarts). You need to keep your credential file for authentication and create a project.
 
-4. Navigate to `SPL` directory:
+5. Navigate to `SPL` directory:
 ```bash
 cd $SRC_DIR/SPL
 ```
 
-5. Open project_config.mk and set paths to the location you have stored the repositories and files. You also need to provide the project_id you set up in step 3. This file contains the main configurations for running the experiments.
+6. Open project_config.mk and set paths to the location you have stored the repositories and files. You also need to provide the project_id you set up in step 3. This file contains the main configurations for running the experiments.
 
-6. `dataset_folder` should contain splits (train/ eval/ test) of original English dataset.
+7. `dataset` directory should contain splits (train/ eval/ test) of original English dataset per domain.
 
 ### Processing
 
@@ -76,25 +80,25 @@ make experiment=${experiment} subset_languages=en ${experiment}/parameter-datase
 make -B experiment=${experiment} subset_languages=${language} ${experiment}/parameter-datasets.tsv
 ```
 
-3. Process English dataset and prepare data splits to be translated:
+4. Process English dataset and prepare data splits to be translated:
 ```bash
 make -B process_data
 ```
 This will create `en` folder and perform multiple transformations on the splits of original dataset and stores the output files in corresponding subfolders.
 
-3. You now need to upload your dataset to a Google Cloud Storage. You can create one in your GC console if you don't have one already. You may set you project_id, project_number, and credential_file as defaults in `scripts/translate_v3.py` so that you don't have to pass it everytime you call `translate_v3.py`
+5. You now need to upload your dataset to a Google Cloud Storage. You can create one in your GC console if you don't have one already. You may set you project_id, project_number, and credential_file as defaults in `scripts/translate_v3.py` so that you don't have to pass it everytime you call `translate_v3.py`
 Please follow these [guidlines](https://cloud.google.com/storage/docs/naming-buckets#:~:text=Bucket%20names%20must%20contain%20only,Names%20containing%20dots%20require%20verification.) for bucket naming.
 ```bash
 make input_bucket=${my_bucket} experiment=${experiment} ${experiment}/upload_data
 ```
 
-4. If you want to use a glossary for translation, you should set glossary_type to manual and put your glossary file here: `$(dataset_folder)/extras/` OR set glossary_type to default.
+6. If you want to use a glossary for translation, you should set glossary_type to manual and put your glossary file here: `$(dataset_folder)/extras/` OR set glossary_type to default.
 Default mode will create a glossary file from your input data automatically by extracting the entities and using that token for all languages. 
 ```bash
 make glossary_type=${glossary_type} all_languages='${languages}' experiment=${experiment} ${experiment}/upload_glossary
 ```
 
-5. Now you are ready for translation:
+7. Now you are ready for translation:
 
 ```bash
 make experiment=${experiment} input_bucket=${my_bucket} batch_translate_with_glossary_{language}
@@ -133,7 +137,7 @@ make print-eval-results
 This will print all the results in `print-eval-results` file.
 
 
-## Common Errors and Solutions
+## FAQ
 
 When running the code I get`Error: Cannot find module '/Users/Mehrad/Documents/genie-toolkit/tool/genie.js'`</br>
 - Change 'geniedir' in project.config to point to the directory where you've downloaded genie-toolkit library.
@@ -142,8 +146,14 @@ Google translation process is taking longer than expected.</br>
 - You can query its status via HTTP calls. Please see [link](https://cloud.google.com/translate/docs/advanced/long-running-operation)
 
 
+## Copyright 
+
+The schema samples provided in `schema_data_sampled` were taken from third-party websites, and is copyrighted by the respective author.</br>
+We're releasing this data for non-profit, educational purposes only. The copyright owner can contact us to have it taken down, if they so wish.
+
+
 ## Citation
-If you use this codebase in your work, please cite:
+If you use the software in this repository, please cite:
 
 ```
 @inproceedings{moradshahi-etal-2020-localizing,
