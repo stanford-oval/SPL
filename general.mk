@@ -2,6 +2,7 @@
 server_port ?= 8400
 server_locale ?= fa
 
+
 $(experiment)/%/run_server: $(experiment)/models/%/best.pth
 	$(genie) server \
 	  --locale $(server_locale) --port $(server_port) \
@@ -31,6 +32,10 @@ $(experiment)/%/annotate:  $(experiment)/models/%/best.pth
 .PRECIOUS: $(experiment)/models/%/best.pth
 
 s3_model_dir=
+s3_metrics_output=
+metrics_output=
+artifact_lang=
+is_dlg=
 
 $(experiment)/models/%/best.pth:
 	mkdir -p $(experiment)/models/
@@ -46,6 +51,13 @@ $(experiment)/$(eval_set)/%.results_single: $(experiment)/models/%/best.pth
 	$(genie) evaluate-server $(input_eval_server) --output-errors $(experiment)/$(eval_set)/"$*".errors --url "file://$(abspath $(dir $<))" --thingpedia $(experiment)/schema.tt $(eval_oracle) --debug --csv-prefix $(eval_set) --csv $(evalflags) --max-complexity 3 -o $(experiment)/$(eval_set)/$*.results.tmp | tee $(experiment)/$(eval_set)/$*.debug
 	mv $(experiment)/$(eval_set)/$*.results.tmp $(experiment)/$(eval_set)/$*.results
 
+
+evaluate-output-artifacts-%:
+	mkdir -p `dirname $(s3_metrics_output)`
+	mkdir -p $(metrics_output)
+	echo s3://geniehai/${owner}/workdir/${project}/${experiment}/${eval_set}/${artifact_lang}/ > $(s3_metrics_output)
+	cp -r $(experiment)/${eval_set}/* $(metrics_output)
+	python3 $(multilingual_scripts)/write_kubeflow_metrics.py `if ${is_dlg} ; then echo "--is_dlg" ; fi` --dialogue_results $(experiment)/${eval_set}/$*.dialogue.results --nlu_results $(experiment)/${eval_set}/$*.nlu.results
 
 
 dryrun ?= --dryrun
