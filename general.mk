@@ -24,6 +24,29 @@ $(experiment)/%/annotate:  $(experiment)/models/%/best.pth
 	  --offset $(annotate_offset) \
 	  $(experiment)/$(eval_set)/input.txt
 
+##############
+### evaluation
+##############
+
+.PRECIOUS: $(experiment)/models/%/best.pth
+
+s3_model_dir=
+
+$(experiment)/models/%/best.pth:
+	mkdir -p $(experiment)/models/
+	if [ "${s3_model_dir}" != "" ] ; then \
+		aws s3 sync --exclude '*/dataset/*' --exclude '*/cache/*' --exclude 'iteration_*.pth' --exclude '*_optim.pth' ${s3_model_dir} $(experiment)/models/$*/ ; \
+	else \
+		aws s3 sync --exclude '*/dataset/*' --exclude '*/cache/*' --exclude 'iteration_*.pth' --exclude '*_optim.pth' s3://geniehai/$(owner)/models/${project}/$(if $(findstring /,$(experiment)),$(patsubst %/,%,$(dir $(experiment))),$(experiment))/$*/ $(experiment)/models/$*/ ; \
+	fi
+
+# .results_single instead of .results to avoid clash with dialog target command
+$(experiment)/$(eval_set)/%.results_single: $(experiment)/models/%/best.pth
+	mkdir -p $(experiment)/$(eval_set)
+	$(genie) evaluate-server $(input_eval_server) --output-errors $(experiment)/$(eval_set)/"$*".errors --url "file://$(abspath $(dir $<))" --thingpedia $(experiment)/schema.tt $(eval_oracle) --debug --csv-prefix $(eval_set) --csv $(evalflags) --max-complexity 3 -o $(experiment)/$(eval_set)/$*.results.tmp | tee $(experiment)/$(eval_set)/$*.debug
+	mv $(experiment)/$(eval_set)/$*.results.tmp $(experiment)/$(eval_set)/$*.results
+
+
 
 dryrun ?= --dryrun
 
