@@ -1,6 +1,6 @@
 
 server_port ?= 8400
-server_locale ?= fa
+server_locale ?= en-US
 
 
 $(experiment)/%/run_server: $(experiment)/models/%/best.pth
@@ -10,10 +10,7 @@ $(experiment)/%/run_server: $(experiment)/models/%/best.pth
 	  --thingpedia $(if $(findstring /,$(experiment)),$(dir $(experiment)),$(experiment))/schema.tt
 
 run_almond_server:
-	export THINGENGINE_HOME=$(realpath ./home) ; export THINGENGINE_NLP_URL=http://127.0.0.1:8400 ; node $(almond_server)/main.js --locale $(server_locale)
-
-run_almond_server:
-	export THINGENGINE_HOME=$(realpath ./home) ; export THINGENGINE_NLP_URL=http://127.0.0.1:8400 ; node $(almond_server)/main.js --locale $(server_locale)
+	export THINGENGINE_HOME=$(realpath ./home) ; export THINGENGINE_NLP_URL=http://127.0.0.1:8400 ; export LOCALE=$(server_locale) ; node $(almond_server)/main.js
 
 
 $(experiment)/%/annotate:  $(experiment)/models/%/best.pth
