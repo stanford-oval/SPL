@@ -47,6 +47,7 @@ git clone https://github.com/stanford-oval/genie-toolkit.git
 3. For each repository, the following commit hashes should be used to reproduce the results:
     - genienlp (c6ffb08742fed0c414d6ffc5eeae679cabdb20ff)
     - genie-toolkit (7a74010f8c51c8b0dc1c7f5e604a8af742b00a29)
+    - genie-k8s (fb6a27a8945a3a43a563702f7809669f802a071f)
 
 4. If you want to do translations for a new language, you need access to a Google Cloud account with permission to use Cloud Translation API.
 Please look here for a [quick setup](https://cloud.google.com/translate/docs/quickstarts). You need to keep your credential file for authentication and create a project.
@@ -112,8 +113,8 @@ These instructions are meant to be used with [genie-k8s](https://github.com/stan
 You may adapt or use your own scripts for training/ evaluation.
 
 1. Training: </br>
-You can run multiple models on multiple datasets in parallel. First you need to create a text file containing the hyperparameter values for each experiment.
-You should then put that file in this directory: `$(multilingualdir)/extras/` and set `restaurants_train_args_name` to the file name.
+You can run multiple models on multiple datasets in parallel. First you need to create a text file containing the hyperparameter values for each experiment.</br>
+You should then put that file in this directory: `$(multilingualdir)/extras/` and set `restaurants_train_args_name` to the file name.</br>
 You should also specify your model name prefix `restaurants_model_prefix` and the datasets you want to use for training `restaurants_train_datasets`. Finally you can evaluate each model on all training datasets by running:
 ```bash
 make train-all
@@ -136,6 +137,23 @@ make print-eval-results
 ```
 This will print all the results in `print-eval-results` file.
 
+
+## Pretrained models and datasets
+
+You can download our datasets and pretrained models for both domains by running:
+```bash
+mkdir spl-release/
+aws s3 sync s3://geniehai-public/research/SPL/dataset/ spl-release/dataset/
+aws s3 sync s3://geniehai-public/research/SPL/models/ spl-release/models/
+```
+
+After unzipping the files, you will have one subfolder for each language.
+
+English dataset contains _train_ and _eval_ splits. _Train_ set contains both synthetic sentences and crowdsourced paraphrases. _Eval_ split only contain crowdsourced examples.
+
+Other languages contain _train_, _eval_, _eval_mt_, and _eval_comb_ splits. _Test_ splits are reserved for benchmarking. _Train_ and _eval_mt_ splits contain only machine translated sentences from the corresponding splits of English dataset. We chose ~2/3 of English eval examples and collected human translation for them. _Eval_ split contains these human translated examples as well as machine translated examples for the remaining 1/3 (mainly to keep the size of eval set the same across experiments and avoid bias). We then combine _eval_mt_ and _eval_ to from _eval_comb_ (this split is used for validation in the paper experiments). _Test_ dataset is all human translated.</br>
+
+Please refer to our [paper](https://www.aclweb.org/anthology/2020.emnlp-main.481/) for more details on the dataset and experiments.
 
 ## FAQ
 
