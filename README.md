@@ -142,12 +142,10 @@ This will print all the results in `print-eval-results` file.
 
 You can download our datasets and pretrained models for both domains by running:
 ```bash
-mkdir spl-release/
-aws s3 sync s3://geniehai-public/research/SPL/dataset/ spl-release/dataset/
-aws s3 sync s3://geniehai-public/research/SPL/models/ spl-release/models/
+make download_release_files
 ```
 
-After unzipping the files, you will have one subfolder for each language.
+This will download and unzip the dataset and models to `spl-release` directory. After unzipping, you will have one subfolder for each language.
 
 English dataset contains _train_ and _eval_ splits. _Train_ set contains both synthetic sentences and crowdsourced paraphrases. _Eval_ split only contain crowdsourced examples.
 

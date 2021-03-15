@@ -72,3 +72,13 @@ deepclean:
 	for experiment in $(all_experiments) ; do \
 		rm -rf ./$$experiment/* ; \
 	done
+
+download_release_files:
+	for object in dataset models ; do \
+	  for domain in $(all_experiments) ; do \
+		wget -c https://almond-static.stanford.edu/research/SPL/$$object/$$domain.tar.gz  -P spl-release/$$object ; \
+		tar -xf spl-release/$$object/$$domain.tar.gz -C spl-release/$$object/ ; \
+		rm -rf spl-release/$$object/$$domain.tar.gz ; \
+	  done ; \
+	done
+
